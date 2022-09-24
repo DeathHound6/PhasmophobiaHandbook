@@ -202,4 +202,64 @@
   <data name="voodoo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\voodoo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deogen_fast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deogen_fast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="deogen_slow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deogen_slow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hantu_cold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hantu_cold.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hantu_warm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hantu_warm.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jinn_fast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jinn_fast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="jinn_no_breaker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jinn_no_breaker.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moroi_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moroi_0.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moroi_35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moroi_35.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="moroi_50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moroi_50.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="myling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\myling.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="normal_speed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal_speed.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="normal_speed_los" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\normal_speed_los.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="raiju_fast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raiju_fast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="raiju_slow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\raiju_slow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="revenant_fast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant_fast.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="revenant_slow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant_slow.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="thaye_old" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thaye_old.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="thaye_young" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thaye_young.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="twin_decoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twin_decoy.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="twin_main" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\twin_main.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

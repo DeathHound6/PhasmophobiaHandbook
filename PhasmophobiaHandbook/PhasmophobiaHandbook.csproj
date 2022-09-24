@@ -77,6 +77,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\AllCursedItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AllCursedItems.Designer.cs">
+      <DependentUpon>AllCursedItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AllGhosts.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,18 @@
     </Compile>
     <Compile Include="Forms\AllMaps.Designer.cs">
       <DependentUpon>AllMaps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\CursedItemInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\CursedItemInfo.Designer.cs">
+      <DependentUpon>CursedItemInfo.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\GhostInfo.cs">
       <SubType>Form</SubType>
@@ -107,17 +125,38 @@
     <Compile Include="Forms\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\OuijaBoardInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\OuijaBoardInfo.Designer.cs">
+      <DependentUpon>OuijaBoardInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\TarotCardsInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\TarotCardsInfo.Designer.cs">
+      <DependentUpon>TarotCardsInfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structs\Base\CursedItem.cs" />
     <Compile Include="Structs\Base\Ghost.cs" />
     <Compile Include="Structs\Base\Map.cs" />
     <Compile Include="Structs\Inherited\Constants.cs" />
+    <EmbeddedResource Include="Forms\AllCursedItems.resx">
+      <DependentUpon>AllCursedItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AllGhosts.resx">
       <DependentUpon>AllGhosts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\AllMaps.resx">
       <DependentUpon>AllMaps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CursedItemInfo.resx">
+      <DependentUpon>CursedItemInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\GhostInfo.resx">
       <DependentUpon>GhostInfo.cs</DependentUpon>
@@ -127,6 +166,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TarotCardsInfo.resx">
+      <DependentUpon>TarotCardsInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -166,6 +208,26 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\twin_main.wav" />
+    <None Include="Resources\twin_decoy.wav" />
+    <None Include="Resources\thaye_young.wav" />
+    <None Include="Resources\thaye_old.wav" />
+    <None Include="Resources\revenant_slow.wav" />
+    <None Include="Resources\revenant_fast.wav" />
+    <None Include="Resources\raiju_slow.wav" />
+    <None Include="Resources\raiju_fast.wav" />
+    <None Include="Resources\normal_speed_los.wav" />
+    <None Include="Resources\normal_speed.wav" />
+    <None Include="Resources\myling.wav" />
+    <None Include="Resources\moroi_50.wav" />
+    <None Include="Resources\moroi_35.wav" />
+    <None Include="Resources\moroi_0.wav" />
+    <None Include="Resources\jinn_no_breaker.wav" />
+    <None Include="Resources\jinn_fast.wav" />
+    <None Include="Resources\hantu_warm.wav" />
+    <None Include="Resources\hantu_cold.wav" />
+    <None Include="Resources\deogen_slow.wav" />
+    <None Include="Resources\deogen_fast.wav" />
     <None Include="Resources\voodoo.png" />
     <None Include="Resources\music_box.png" />
     <None Include="Resources\mirror.png" />

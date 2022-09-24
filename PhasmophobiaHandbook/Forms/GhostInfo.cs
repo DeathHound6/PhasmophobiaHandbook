@@ -1,8 +1,11 @@
 ﻿using System;
+using System.IO;
 using System.Media;
+using System.ComponentModel;
 using System.Windows.Forms;
 using PhasmophobiaHandbook.Structs.Base;
 using PhasmophobiaHandbook.Properties;
+using System.Threading.Tasks;
 
 namespace PhasmophobiaHandbook.Forms
 {
@@ -11,6 +14,7 @@ namespace PhasmophobiaHandbook.Forms
         private string[] evidences = new string[] {"EMF 5", "DOTS Projector", "Fingerprints", "Ghost Orbs", "Ghost Writing", "Spirit Box", "Freezing Temperatures"};
         private Ghost g;
         private SoundPlayer player;
+        private PictureBox lastClicked;
 
         public GhostInfo(Ghost ghost)
         {
@@ -43,13 +47,13 @@ namespace PhasmophobiaHandbook.Forms
                 TxtNotes.Visible = true;
             try
             {
-                LblAudioOne.Text = g.Audio[0][0];
+                LblAudioOne.Text = (string)g.Audio[0][0];
                 LblAudioOne.Visible = true;
                 ImgAudioOne.Visible = true;
-                LblAudioTwo.Text = g.Audio[1][0];
+                LblAudioTwo.Text = (string)g.Audio[1][0];
                 LblAudioTwo.Visible = true;
                 ImgAudioTwo.Visible = true;
-                LblAudioThree.Text = g.Audio[2][0];
+                LblAudioThree.Text = (string)g.Audio[2][0];
                 LblAudioThree.Visible = true;
                 ImgAudioThree.Visible = true;
             }
@@ -57,52 +61,94 @@ namespace PhasmophobiaHandbook.Forms
             LblSanity.Text = g.HuntingSanity;
         }
 
-        private void ImgAudioOne_Click(object sender, EventArgs e)
+        private async void ImgAudioOne_Click(object sender, EventArgs e)
         {
+            if (lastClicked == ImgAudioOne)
+            {
+                PlayerCompleted(sender, e);
+                return;
+            }
+            lastClicked = ImgAudioOne;
             if (player != null)
-                player.Stop();
+                PlayerCompleted(sender, e);
             try
             {
-                player = new SoundPlayer(g.Audio[0][1]);
-                player.Play();
-                player = null;
+                player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[0][1]);
+                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
+                player = null;
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void ImgAudioTwo_Click(object sender, EventArgs e)
+        private async void ImgAudioTwo_Click(object sender, EventArgs e)
         {
+            if (lastClicked == ImgAudioTwo)
+            {
+                PlayerCompleted(sender, e);
+                return;
+            }
+            lastClicked = ImgAudioTwo;
             if (player != null)
-                player.Stop();
+                PlayerCompleted(sender, e);
             try
             {
-                player = new SoundPlayer(g.Audio[1][1]);
-                player.Play();
-                player = null;
+                player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[1][1]);
+                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
+                player = null;
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void ImgAudioThree_Click(object sender, EventArgs e)
+        private async void ImgAudioThree_Click(object sender, EventArgs e)
         {
+            if (lastClicked == ImgAudioThree)
+            {
+                PlayerCompleted(sender, e);
+                return;
+            }
+            lastClicked = ImgAudioThree;
             if (player != null)
-                player.Stop();
+                PlayerCompleted(sender, e);
             try
             {
-                player = new SoundPlayer(g.Audio[2][1]);
-                player.Play();
-                player = null;
+                player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[2][1]);
+                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
+                player = null;
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void Play(SoundPlayer player, EventHandler callback)
+        {
+            try
+            {
+                player.Play();
+            }
+            catch (InvalidOperationException)
+            {
+                player.Stop();
+                player.Stream.Position = 0;
+                player.Dispose();
+                player = null;
+            }
+        }
+
+        private void PlayerCompleted(object sender, EventArgs e)
+        {
+
+            player.Stop();
+            player.Stream.Position = 0;
+            player.Dispose();
+            player = null;
         }
     }
 }
