@@ -54,6 +54,7 @@ namespace PhasmophobiaHandbook.Forms
                 ImgAudioThree.Visible = true;
             }
             catch (IndexOutOfRangeException) {}
+            LblSanity.Text = g.HuntingSanity;
         }
 
         private void ImgAudioOne_Click(object sender, EventArgs e)
