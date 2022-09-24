@@ -2,7 +2,7 @@
 {
     public class Ghost
     {
-        public Ghost(string name, GhostEvidence[] evidences, string[] notes, string sanity, string[][] audio)
+        public Ghost(string name, GhostEvidence[] evidences, string[] notes, string sanity, object[][] audio)
         {
             Name = name;
             Evidences = evidences;
@@ -15,7 +15,7 @@
         public GhostEvidence[] Evidences { get; private set; }
         public string[] Notes { get; private set; }
         public string HuntingSanity { get; private set; }
-        public string[][] Audio { get; private set; }
+        public object[][] Audio { get; private set; }
     }
 
     public enum GhostEvidence

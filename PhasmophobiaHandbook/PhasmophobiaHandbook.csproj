@@ -208,6 +208,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\speaker-mute.png" />
     <None Include="Resources\twin_main.wav" />
     <None Include="Resources\twin_decoy.wav" />
     <None Include="Resources\thaye_young.wav" />

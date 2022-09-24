@@ -73,12 +73,13 @@ namespace PhasmophobiaHandbook.Forms
                 PlayerCompleted(sender, e);
             try
             {
+                ImgAudioOne.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[0][1]);
                 await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
-                player = null;
+                PlayerCompleted(sender, e);
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -95,12 +96,13 @@ namespace PhasmophobiaHandbook.Forms
                 PlayerCompleted(sender, e);
             try
             {
+                ImgAudioTwo.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[1][1]);
                 await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
-                player = null;
+                PlayerCompleted(sender, e);
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -117,12 +119,13 @@ namespace PhasmophobiaHandbook.Forms
                 PlayerCompleted(sender, e);
             try
             {
+                ImgAudioThree.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[2][1]);
                 await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
             }
             catch (IndexOutOfRangeException)
             {
-                player = null;
+                PlayerCompleted(sender, e);
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -144,7 +147,9 @@ namespace PhasmophobiaHandbook.Forms
 
         private void PlayerCompleted(object sender, EventArgs e)
         {
-
+            ImgAudioOne.Image = Resources.speaker1;
+            ImgAudioTwo.Image = Resources.speaker1;
+            ImgAudioThree.Image = Resources.speaker1;
             player.Stop();
             player.Stream.Position = 0;
             player.Dispose();
