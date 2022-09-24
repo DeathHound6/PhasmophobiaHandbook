@@ -34,5 +34,15 @@ namespace PhasmophobiaHandbook
         {
             new AllMaps().Show();
         }
+
+        private void BtnCursedItems_Click(object sender, EventArgs e)
+        {
+            new AllCursedItems().Show();
+        }
+
+        private void BtnCredits_Click(object sender, EventArgs e)
+        {
+            new Credits().Show();
+        }
     }
 }
