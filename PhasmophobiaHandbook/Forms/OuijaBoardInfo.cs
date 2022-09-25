@@ -22,7 +22,7 @@ namespace PhasmophobiaHandbook.Forms
             {
                 LstQuestions.Items.Add(question.Type);
             }
-            LstQuestions.SelectedItem = board.Questions[0];
+            LstQuestions.SelectedItem = board.Questions[0].Type;
             foreach (string text in board.Notes)
             {
                 TxtNotes.AppendText($"- {text}");

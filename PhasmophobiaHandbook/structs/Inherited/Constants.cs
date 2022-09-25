@@ -549,14 +549,14 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                         "20%"
                     ),
                     new TarotCard(
-                        "The Wheel of Fortune",
+                        "The Wheel of Fortune(loss)",
                         Color.Red,
                         Resources.card_fortune,
                         "Lose 25% sanity",
                         "20%"
                     ),
                     new TarotCard(
-                        "The Wheel of Fortune",
+                        "The Wheel of Fortune(gain)",
                         Color.Green,
                         Resources.card_fortune,
                         "Gain 25% sanity",
@@ -594,15 +594,15 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                         "The Hermit",
                         Color.Cyan,
                         Resources.card_hermit,
-                        "Teleports the ghost back to the ghost room and traps it for 1 minute. DOes not affect hunts",
+                        "Teleports the ghost back to the ghost room and traps it for 1 minute. Does not affect hunts",
                         "10%"
                     ),
                     new TarotCard(
                         "The Fool",
-                        Color.MediumPurple,
+                        Color.Purple,
                         Resources.card_fool,
                         "Will appear as another card at first. Does nothing",
-                        "100% (during a hunt), 17% otherwise"
+                        "17%, 100% (during a hunt)"
                     )
                 })
             )
