@@ -2,9 +2,9 @@
 using System.IO;
 using System.Media;
 using System.Windows.Forms;
+using System.Threading.Tasks;
 using PhasmophobiaHandbook.Structs.Base;
 using PhasmophobiaHandbook.Properties;
-using System.Threading.Tasks;
 
 namespace PhasmophobiaHandbook.Forms
 {
@@ -74,7 +74,7 @@ namespace PhasmophobiaHandbook.Forms
             {
                 ImgAudioOne.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[0][1]);
-                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
+                await Task.Factory.StartNew(() => Play());
             }
             catch (IndexOutOfRangeException)
             {
@@ -97,7 +97,7 @@ namespace PhasmophobiaHandbook.Forms
             {
                 ImgAudioTwo.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[1][1]);
-                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
+                await Task.Factory.StartNew(() => Play());
             }
             catch (IndexOutOfRangeException)
             {
@@ -120,7 +120,7 @@ namespace PhasmophobiaHandbook.Forms
             {
                 ImgAudioThree.Image = Resources.speaker_mute;
                 player = new SoundPlayer((UnmanagedMemoryStream)g.Audio[2][1]);
-                await Task.Factory.StartNew(() => Play(player, PlayerCompleted));
+                await Task.Factory.StartNew(() => Play());
             }
             catch (IndexOutOfRangeException)
             {
@@ -129,18 +129,16 @@ namespace PhasmophobiaHandbook.Forms
             }
         }
 
-        private void Play(SoundPlayer player, EventHandler callback)
+        private void Play()
         {
             try
             {
-                player.Play();
+                player.PlaySync();
+                throw new InvalidOperationException();
             }
             catch (InvalidOperationException)
             {
-                player.Stop();
-                player.Stream.Position = 0;
-                player.Dispose();
-                player = null;
+                PlayerCompleted(null, null);
             }
         }
 
@@ -149,9 +147,12 @@ namespace PhasmophobiaHandbook.Forms
             ImgAudioOne.Image = Resources.speaker1;
             ImgAudioTwo.Image = Resources.speaker1;
             ImgAudioThree.Image = Resources.speaker1;
-            player.Stop();
-            player.Stream.Position = 0;
-            player.Dispose();
+            if (player != null)
+            {
+                player.Stop();
+                player.Stream.Position = 0;
+                player.Dispose();
+            }
             player = null;
         }
     }
