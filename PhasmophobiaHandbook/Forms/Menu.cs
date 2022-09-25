@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Media;
 using System.Windows.Forms;
 using PhasmophobiaHandbook.Forms;
 using PhasmophobiaHandbook.Properties;
@@ -23,6 +24,7 @@ namespace PhasmophobiaHandbook
 
         private void Menu_FormClosing(object sender, FormClosingEventArgs e)
         {
+            SystemSounds.Beep.Play();
             DialogResult res = MessageBox.Show("Are you sure you want to exit?", "Exit?", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (res == DialogResult.No)
             {
