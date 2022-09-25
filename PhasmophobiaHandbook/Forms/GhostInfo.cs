@@ -1,7 +1,6 @@
 ﻿using System;
 using System.IO;
 using System.Media;
-using System.ComponentModel;
 using System.Windows.Forms;
 using PhasmophobiaHandbook.Structs.Base;
 using PhasmophobiaHandbook.Properties;

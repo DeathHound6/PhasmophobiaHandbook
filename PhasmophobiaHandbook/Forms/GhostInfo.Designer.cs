@@ -65,7 +65,7 @@
             // 
             this.LblName.AutoSize = true;
             this.LblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblName.Location = new System.Drawing.Point(217, 9);
+            this.LblName.Location = new System.Drawing.Point(201, 9);
             this.LblName.Name = "LblName";
             this.LblName.Size = new System.Drawing.Size(141, 25);
             this.LblName.TabIndex = 1;
@@ -158,12 +158,12 @@
             // TxtNotes
             // 
             this.TxtNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNotes.Location = new System.Drawing.Point(348, 51);
+            this.TxtNotes.Location = new System.Drawing.Point(358, 52);
             this.TxtNotes.Multiline = true;
             this.TxtNotes.Name = "TxtNotes";
             this.TxtNotes.ReadOnly = true;
             this.TxtNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtNotes.Size = new System.Drawing.Size(373, 534);
+            this.TxtNotes.Size = new System.Drawing.Size(373, 526);
             this.TxtNotes.TabIndex = 12;
             this.TxtNotes.Visible = false;
             // 

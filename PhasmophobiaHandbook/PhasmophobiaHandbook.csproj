@@ -167,6 +167,9 @@
     <EmbeddedResource Include="Forms\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OuijaBoardInfo.resx">
+      <DependentUpon>OuijaBoardInfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\TarotCardsInfo.resx">
       <DependentUpon>TarotCardsInfo.cs</DependentUpon>
     </EmbeddedResource>

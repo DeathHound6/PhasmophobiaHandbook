@@ -7,7 +7,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
 {
     public static class Constants
     {
-
+        #region Ghosts
         public static List<Ghost> ghosts = new List<Ghost>(new Ghost[]
         {
             new Ghost(
@@ -274,7 +274,9 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 new object[][] { new object[] { "2.75m/s (young)", Resources.thaye_young }, new object[] {"1m/s (old)", Resources.thaye_old } }
             )
         });
+        #endregion Ghosts
 
+        #region Maps
         public static List<Map> maps = new List<Map>(new Map[] {
             new Map("Asylum", Resources.asylum, MapSize.Large),
             new Map("Bleasedale Farmhouse", Resources.bleasdale, MapSize.Small),
@@ -287,7 +289,9 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             new Map("Tanglewood Street House", Resources.tanglewood, MapSize.Small),
             new Map("Willow Street House", Resources.willow, MapSize.Small)
         });
+        #endregion Maps
 
+        #region CursedItems
         public static List<CursedItem> cursedItems = new List<CursedItem>(new CursedItem[]
         {
             new CursedItem(
@@ -603,5 +607,6 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 })
             )
         });
+        #endregion CursedItems
     }
 }
