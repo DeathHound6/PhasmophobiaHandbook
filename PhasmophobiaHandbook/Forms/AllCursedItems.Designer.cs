@@ -41,18 +41,21 @@
             // 
             this.LblName.AutoSize = true;
             this.LblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblName.Location = new System.Drawing.Point(107, 19);
+            this.LblName.Location = new System.Drawing.Point(143, 23);
+            this.LblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(184, 25);
+            this.LblName.Size = new System.Drawing.Size(229, 31);
             this.LblName.TabIndex = 3;
             this.LblName.Text = "All Cursed Items";
             // 
             // BtnMusic
             // 
+            this.BtnMusic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMusic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMusic.Location = new System.Drawing.Point(45, 70);
+            this.BtnMusic.Location = new System.Drawing.Point(60, 86);
+            this.BtnMusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMusic.Name = "BtnMusic";
-            this.BtnMusic.Size = new System.Drawing.Size(123, 73);
+            this.BtnMusic.Size = new System.Drawing.Size(164, 90);
             this.BtnMusic.TabIndex = 8;
             this.BtnMusic.Text = "Music Box";
             this.BtnMusic.UseVisualStyleBackColor = true;
@@ -60,10 +63,12 @@
             // 
             // BtnOujia
             // 
+            this.BtnOujia.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnOujia.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOujia.Location = new System.Drawing.Point(45, 167);
+            this.BtnOujia.Location = new System.Drawing.Point(60, 206);
+            this.BtnOujia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnOujia.Name = "BtnOujia";
-            this.BtnOujia.Size = new System.Drawing.Size(123, 73);
+            this.BtnOujia.Size = new System.Drawing.Size(164, 90);
             this.BtnOujia.TabIndex = 9;
             this.BtnOujia.Text = "Oujia Board";
             this.BtnOujia.UseVisualStyleBackColor = true;
@@ -71,10 +76,12 @@
             // 
             // BtnTarots
             // 
+            this.BtnTarots.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnTarots.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTarots.Location = new System.Drawing.Point(45, 259);
+            this.BtnTarots.Location = new System.Drawing.Point(60, 319);
+            this.BtnTarots.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnTarots.Name = "BtnTarots";
-            this.BtnTarots.Size = new System.Drawing.Size(123, 73);
+            this.BtnTarots.Size = new System.Drawing.Size(164, 90);
             this.BtnTarots.TabIndex = 10;
             this.BtnTarots.Text = "Tarot Cards";
             this.BtnTarots.UseVisualStyleBackColor = true;
@@ -82,10 +89,12 @@
             // 
             // BtnMirror
             // 
+            this.BtnMirror.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMirror.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMirror.Location = new System.Drawing.Point(205, 70);
+            this.BtnMirror.Location = new System.Drawing.Point(273, 86);
+            this.BtnMirror.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMirror.Name = "BtnMirror";
-            this.BtnMirror.Size = new System.Drawing.Size(123, 73);
+            this.BtnMirror.Size = new System.Drawing.Size(164, 90);
             this.BtnMirror.TabIndex = 11;
             this.BtnMirror.Text = "Haunted Mirror";
             this.BtnMirror.UseVisualStyleBackColor = true;
@@ -93,10 +102,12 @@
             // 
             // BtnCircle
             // 
+            this.BtnCircle.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCircle.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCircle.Location = new System.Drawing.Point(205, 167);
+            this.BtnCircle.Location = new System.Drawing.Point(273, 206);
+            this.BtnCircle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCircle.Name = "BtnCircle";
-            this.BtnCircle.Size = new System.Drawing.Size(123, 73);
+            this.BtnCircle.Size = new System.Drawing.Size(164, 90);
             this.BtnCircle.TabIndex = 12;
             this.BtnCircle.Text = "Summoning Circle";
             this.BtnCircle.UseVisualStyleBackColor = true;
@@ -104,10 +115,12 @@
             // 
             // BtnDoll
             // 
+            this.BtnDoll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnDoll.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDoll.Location = new System.Drawing.Point(205, 259);
+            this.BtnDoll.Location = new System.Drawing.Point(273, 319);
+            this.BtnDoll.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnDoll.Name = "BtnDoll";
-            this.BtnDoll.Size = new System.Drawing.Size(123, 73);
+            this.BtnDoll.Size = new System.Drawing.Size(164, 90);
             this.BtnDoll.TabIndex = 13;
             this.BtnDoll.Text = "Voodoo Doll";
             this.BtnDoll.UseVisualStyleBackColor = true;
@@ -115,9 +128,9 @@
             // 
             // AllCursedItems
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 362);
+            this.ClientSize = new System.Drawing.Size(535, 446);
             this.Controls.Add(this.BtnDoll);
             this.Controls.Add(this.BtnCircle);
             this.Controls.Add(this.BtnMirror);
@@ -126,6 +139,7 @@
             this.Controls.Add(this.BtnMusic);
             this.Controls.Add(this.LblName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AllCursedItems";
             this.Text = "AllCursedItems";
             this.ResumeLayout(false);

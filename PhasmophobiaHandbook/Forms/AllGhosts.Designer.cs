@@ -60,18 +60,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(318, 9);
+            this.label1.Location = new System.Drawing.Point(424, 11);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(131, 25);
+            this.label1.Size = new System.Drawing.Size(162, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Ghosts List";
             // 
             // BtnSpirit
             // 
+            this.BtnSpirit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSpirit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnSpirit.Location = new System.Drawing.Point(21, 80);
+            this.BtnSpirit.Location = new System.Drawing.Point(28, 98);
+            this.BtnSpirit.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnSpirit.Name = "BtnSpirit";
-            this.BtnSpirit.Size = new System.Drawing.Size(110, 51);
+            this.BtnSpirit.Size = new System.Drawing.Size(147, 63);
             this.BtnSpirit.TabIndex = 1;
             this.BtnSpirit.Text = "Spirit";
             this.BtnSpirit.UseVisualStyleBackColor = true;
@@ -79,10 +82,12 @@
             // 
             // BtnWraith
             // 
+            this.BtnWraith.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnWraith.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnWraith.Location = new System.Drawing.Point(21, 137);
+            this.BtnWraith.Location = new System.Drawing.Point(28, 169);
+            this.BtnWraith.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnWraith.Name = "BtnWraith";
-            this.BtnWraith.Size = new System.Drawing.Size(110, 51);
+            this.BtnWraith.Size = new System.Drawing.Size(147, 63);
             this.BtnWraith.TabIndex = 2;
             this.BtnWraith.Text = "Wraith";
             this.BtnWraith.UseVisualStyleBackColor = true;
@@ -90,10 +95,12 @@
             // 
             // BtnPhantom
             // 
+            this.BtnPhantom.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPhantom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPhantom.Location = new System.Drawing.Point(21, 194);
+            this.BtnPhantom.Location = new System.Drawing.Point(28, 239);
+            this.BtnPhantom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnPhantom.Name = "BtnPhantom";
-            this.BtnPhantom.Size = new System.Drawing.Size(110, 51);
+            this.BtnPhantom.Size = new System.Drawing.Size(147, 63);
             this.BtnPhantom.TabIndex = 3;
             this.BtnPhantom.Text = "Phantom";
             this.BtnPhantom.UseVisualStyleBackColor = true;
@@ -101,10 +108,12 @@
             // 
             // BtnPoltergeist
             // 
+            this.BtnPoltergeist.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPoltergeist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPoltergeist.Location = new System.Drawing.Point(21, 251);
+            this.BtnPoltergeist.Location = new System.Drawing.Point(28, 309);
+            this.BtnPoltergeist.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnPoltergeist.Name = "BtnPoltergeist";
-            this.BtnPoltergeist.Size = new System.Drawing.Size(110, 51);
+            this.BtnPoltergeist.Size = new System.Drawing.Size(147, 63);
             this.BtnPoltergeist.TabIndex = 4;
             this.BtnPoltergeist.Text = "Poltergeist";
             this.BtnPoltergeist.UseVisualStyleBackColor = true;
@@ -112,10 +121,12 @@
             // 
             // BtnBanshee
             // 
+            this.BtnBanshee.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBanshee.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBanshee.Location = new System.Drawing.Point(21, 308);
+            this.BtnBanshee.Location = new System.Drawing.Point(28, 379);
+            this.BtnBanshee.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnBanshee.Name = "BtnBanshee";
-            this.BtnBanshee.Size = new System.Drawing.Size(110, 51);
+            this.BtnBanshee.Size = new System.Drawing.Size(147, 63);
             this.BtnBanshee.TabIndex = 5;
             this.BtnBanshee.Text = "Banshee";
             this.BtnBanshee.UseVisualStyleBackColor = true;
@@ -123,10 +134,12 @@
             // 
             // BtnJinn
             // 
+            this.BtnJinn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnJinn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnJinn.Location = new System.Drawing.Point(21, 365);
+            this.BtnJinn.Location = new System.Drawing.Point(28, 449);
+            this.BtnJinn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnJinn.Name = "BtnJinn";
-            this.BtnJinn.Size = new System.Drawing.Size(110, 51);
+            this.BtnJinn.Size = new System.Drawing.Size(147, 63);
             this.BtnJinn.TabIndex = 6;
             this.BtnJinn.Text = "Jinn";
             this.BtnJinn.UseVisualStyleBackColor = true;
@@ -134,10 +147,12 @@
             // 
             // BtnMare
             // 
+            this.BtnMare.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMare.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMare.Location = new System.Drawing.Point(137, 80);
+            this.BtnMare.Location = new System.Drawing.Point(183, 98);
+            this.BtnMare.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMare.Name = "BtnMare";
-            this.BtnMare.Size = new System.Drawing.Size(100, 51);
+            this.BtnMare.Size = new System.Drawing.Size(133, 63);
             this.BtnMare.TabIndex = 7;
             this.BtnMare.Text = "Mare";
             this.BtnMare.UseVisualStyleBackColor = true;
@@ -145,10 +160,12 @@
             // 
             // BtnRevenant
             // 
+            this.BtnRevenant.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRevenant.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRevenant.Location = new System.Drawing.Point(137, 137);
+            this.BtnRevenant.Location = new System.Drawing.Point(183, 169);
+            this.BtnRevenant.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRevenant.Name = "BtnRevenant";
-            this.BtnRevenant.Size = new System.Drawing.Size(100, 51);
+            this.BtnRevenant.Size = new System.Drawing.Size(133, 63);
             this.BtnRevenant.TabIndex = 8;
             this.BtnRevenant.Text = "Revenant";
             this.BtnRevenant.UseVisualStyleBackColor = true;
@@ -156,10 +173,12 @@
             // 
             // BtnShade
             // 
+            this.BtnShade.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnShade.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnShade.Location = new System.Drawing.Point(137, 194);
+            this.BtnShade.Location = new System.Drawing.Point(183, 239);
+            this.BtnShade.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnShade.Name = "BtnShade";
-            this.BtnShade.Size = new System.Drawing.Size(100, 51);
+            this.BtnShade.Size = new System.Drawing.Size(133, 63);
             this.BtnShade.TabIndex = 9;
             this.BtnShade.Text = "Shade";
             this.BtnShade.UseVisualStyleBackColor = true;
@@ -167,10 +186,12 @@
             // 
             // BtnDemon
             // 
+            this.BtnDemon.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnDemon.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDemon.Location = new System.Drawing.Point(137, 251);
+            this.BtnDemon.Location = new System.Drawing.Point(183, 309);
+            this.BtnDemon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnDemon.Name = "BtnDemon";
-            this.BtnDemon.Size = new System.Drawing.Size(100, 51);
+            this.BtnDemon.Size = new System.Drawing.Size(133, 63);
             this.BtnDemon.TabIndex = 10;
             this.BtnDemon.Text = "Demon";
             this.BtnDemon.UseVisualStyleBackColor = true;
@@ -178,10 +199,12 @@
             // 
             // BtnYurei
             // 
+            this.BtnYurei.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnYurei.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnYurei.Location = new System.Drawing.Point(137, 308);
+            this.BtnYurei.Location = new System.Drawing.Point(183, 379);
+            this.BtnYurei.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnYurei.Name = "BtnYurei";
-            this.BtnYurei.Size = new System.Drawing.Size(100, 51);
+            this.BtnYurei.Size = new System.Drawing.Size(133, 63);
             this.BtnYurei.TabIndex = 11;
             this.BtnYurei.Text = "Yurei";
             this.BtnYurei.UseVisualStyleBackColor = true;
@@ -189,10 +212,12 @@
             // 
             // BtnOni
             // 
+            this.BtnOni.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnOni.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOni.Location = new System.Drawing.Point(137, 365);
+            this.BtnOni.Location = new System.Drawing.Point(183, 449);
+            this.BtnOni.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnOni.Name = "BtnOni";
-            this.BtnOni.Size = new System.Drawing.Size(100, 51);
+            this.BtnOni.Size = new System.Drawing.Size(133, 63);
             this.BtnOni.TabIndex = 12;
             this.BtnOni.Text = "Oni";
             this.BtnOni.UseVisualStyleBackColor = true;
@@ -200,10 +225,12 @@
             // 
             // BtnYokai
             // 
+            this.BtnYokai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnYokai.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnYokai.Location = new System.Drawing.Point(243, 80);
+            this.BtnYokai.Location = new System.Drawing.Point(324, 98);
+            this.BtnYokai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnYokai.Name = "BtnYokai";
-            this.BtnYokai.Size = new System.Drawing.Size(100, 51);
+            this.BtnYokai.Size = new System.Drawing.Size(133, 63);
             this.BtnYokai.TabIndex = 13;
             this.BtnYokai.Text = "Yokai";
             this.BtnYokai.UseVisualStyleBackColor = true;
@@ -211,10 +238,12 @@
             // 
             // BtnHantu
             // 
+            this.BtnHantu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnHantu.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnHantu.Location = new System.Drawing.Point(243, 137);
+            this.BtnHantu.Location = new System.Drawing.Point(324, 169);
+            this.BtnHantu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnHantu.Name = "BtnHantu";
-            this.BtnHantu.Size = new System.Drawing.Size(100, 51);
+            this.BtnHantu.Size = new System.Drawing.Size(133, 63);
             this.BtnHantu.TabIndex = 14;
             this.BtnHantu.Text = "Hantu";
             this.BtnHantu.UseVisualStyleBackColor = true;
@@ -222,10 +251,12 @@
             // 
             // BtnGoryo
             // 
+            this.BtnGoryo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGoryo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGoryo.Location = new System.Drawing.Point(243, 194);
+            this.BtnGoryo.Location = new System.Drawing.Point(324, 239);
+            this.BtnGoryo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnGoryo.Name = "BtnGoryo";
-            this.BtnGoryo.Size = new System.Drawing.Size(100, 51);
+            this.BtnGoryo.Size = new System.Drawing.Size(133, 63);
             this.BtnGoryo.TabIndex = 15;
             this.BtnGoryo.Text = "Goryo";
             this.BtnGoryo.UseVisualStyleBackColor = true;
@@ -233,10 +264,12 @@
             // 
             // BtnMyling
             // 
+            this.BtnMyling.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMyling.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMyling.Location = new System.Drawing.Point(243, 251);
+            this.BtnMyling.Location = new System.Drawing.Point(324, 309);
+            this.BtnMyling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMyling.Name = "BtnMyling";
-            this.BtnMyling.Size = new System.Drawing.Size(100, 51);
+            this.BtnMyling.Size = new System.Drawing.Size(133, 63);
             this.BtnMyling.TabIndex = 16;
             this.BtnMyling.Text = "Myling";
             this.BtnMyling.UseVisualStyleBackColor = true;
@@ -244,10 +277,12 @@
             // 
             // BtnOnryo
             // 
+            this.BtnOnryo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnOnryo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnOnryo.Location = new System.Drawing.Point(243, 308);
+            this.BtnOnryo.Location = new System.Drawing.Point(324, 379);
+            this.BtnOnryo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnOnryo.Name = "BtnOnryo";
-            this.BtnOnryo.Size = new System.Drawing.Size(100, 51);
+            this.BtnOnryo.Size = new System.Drawing.Size(133, 63);
             this.BtnOnryo.TabIndex = 17;
             this.BtnOnryo.Text = "Onryo";
             this.BtnOnryo.UseVisualStyleBackColor = true;
@@ -255,10 +290,12 @@
             // 
             // BtnTwins
             // 
+            this.BtnTwins.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnTwins.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTwins.Location = new System.Drawing.Point(243, 365);
+            this.BtnTwins.Location = new System.Drawing.Point(324, 449);
+            this.BtnTwins.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnTwins.Name = "BtnTwins";
-            this.BtnTwins.Size = new System.Drawing.Size(100, 51);
+            this.BtnTwins.Size = new System.Drawing.Size(133, 63);
             this.BtnTwins.TabIndex = 18;
             this.BtnTwins.Text = "The Twins";
             this.BtnTwins.UseVisualStyleBackColor = true;
@@ -266,10 +303,12 @@
             // 
             // BtnThaye
             // 
+            this.BtnThaye.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnThaye.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnThaye.Location = new System.Drawing.Point(349, 365);
+            this.BtnThaye.Location = new System.Drawing.Point(465, 449);
+            this.BtnThaye.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnThaye.Name = "BtnThaye";
-            this.BtnThaye.Size = new System.Drawing.Size(100, 51);
+            this.BtnThaye.Size = new System.Drawing.Size(133, 63);
             this.BtnThaye.TabIndex = 19;
             this.BtnThaye.Text = "Thaye";
             this.BtnThaye.UseVisualStyleBackColor = true;
@@ -277,10 +316,12 @@
             // 
             // BtnDeogen
             // 
+            this.BtnDeogen.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnDeogen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDeogen.Location = new System.Drawing.Point(349, 308);
+            this.BtnDeogen.Location = new System.Drawing.Point(465, 379);
+            this.BtnDeogen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnDeogen.Name = "BtnDeogen";
-            this.BtnDeogen.Size = new System.Drawing.Size(100, 51);
+            this.BtnDeogen.Size = new System.Drawing.Size(133, 63);
             this.BtnDeogen.TabIndex = 20;
             this.BtnDeogen.Text = "Deogen";
             this.BtnDeogen.UseVisualStyleBackColor = true;
@@ -288,10 +329,12 @@
             // 
             // BtnMoroi
             // 
+            this.BtnMoroi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMoroi.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMoroi.Location = new System.Drawing.Point(349, 251);
+            this.BtnMoroi.Location = new System.Drawing.Point(465, 309);
+            this.BtnMoroi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMoroi.Name = "BtnMoroi";
-            this.BtnMoroi.Size = new System.Drawing.Size(100, 51);
+            this.BtnMoroi.Size = new System.Drawing.Size(133, 63);
             this.BtnMoroi.TabIndex = 21;
             this.BtnMoroi.Text = "Moroi";
             this.BtnMoroi.UseVisualStyleBackColor = true;
@@ -299,10 +342,12 @@
             // 
             // BtnMimic
             // 
+            this.BtnMimic.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnMimic.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnMimic.Location = new System.Drawing.Point(349, 194);
+            this.BtnMimic.Location = new System.Drawing.Point(465, 239);
+            this.BtnMimic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnMimic.Name = "BtnMimic";
-            this.BtnMimic.Size = new System.Drawing.Size(100, 51);
+            this.BtnMimic.Size = new System.Drawing.Size(133, 63);
             this.BtnMimic.TabIndex = 22;
             this.BtnMimic.Text = "The Mimic";
             this.BtnMimic.UseVisualStyleBackColor = true;
@@ -310,10 +355,12 @@
             // 
             // BtnObake
             // 
+            this.BtnObake.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnObake.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnObake.Location = new System.Drawing.Point(349, 137);
+            this.BtnObake.Location = new System.Drawing.Point(465, 169);
+            this.BtnObake.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnObake.Name = "BtnObake";
-            this.BtnObake.Size = new System.Drawing.Size(100, 51);
+            this.BtnObake.Size = new System.Drawing.Size(133, 63);
             this.BtnObake.TabIndex = 23;
             this.BtnObake.Text = "Obake";
             this.BtnObake.UseVisualStyleBackColor = true;
@@ -321,10 +368,12 @@
             // 
             // BtnRaiju
             // 
+            this.BtnRaiju.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRaiju.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRaiju.Location = new System.Drawing.Point(349, 80);
+            this.BtnRaiju.Location = new System.Drawing.Point(465, 98);
+            this.BtnRaiju.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRaiju.Name = "BtnRaiju";
-            this.BtnRaiju.Size = new System.Drawing.Size(100, 51);
+            this.BtnRaiju.Size = new System.Drawing.Size(133, 63);
             this.BtnRaiju.TabIndex = 24;
             this.BtnRaiju.Text = "Raiju";
             this.BtnRaiju.UseVisualStyleBackColor = true;
@@ -333,19 +382,21 @@
             // CBoxFilter
             // 
             this.CBoxFilter.CheckOnClick = true;
+            this.CBoxFilter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CBoxFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CBoxFilter.FormattingEnabled = true;
-            this.CBoxFilter.Location = new System.Drawing.Point(464, 152);
+            this.CBoxFilter.Location = new System.Drawing.Point(619, 187);
+            this.CBoxFilter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CBoxFilter.Name = "CBoxFilter";
-            this.CBoxFilter.Size = new System.Drawing.Size(282, 186);
+            this.CBoxFilter.Size = new System.Drawing.Size(375, 228);
             this.CBoxFilter.TabIndex = 25;
             this.CBoxFilter.SelectedIndexChanged += new System.EventHandler(this.CBoxFilter_SelectedIndexChanged);
             // 
             // AllGhosts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(771, 464);
+            this.ClientSize = new System.Drawing.Size(1028, 571);
             this.Controls.Add(this.CBoxFilter);
             this.Controls.Add(this.BtnRaiju);
             this.Controls.Add(this.BtnObake);
@@ -373,6 +424,7 @@
             this.Controls.Add(this.BtnSpirit);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "AllGhosts";
             this.Text = "AllGhosts";
             this.ResumeLayout(false);

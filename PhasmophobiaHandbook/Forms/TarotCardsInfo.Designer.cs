@@ -42,49 +42,55 @@
             // 
             this.LblName.AutoSize = true;
             this.LblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblName.Location = new System.Drawing.Point(210, 9);
+            this.LblName.Location = new System.Drawing.Point(280, 11);
+            this.LblName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblName.Name = "LblName";
-            this.LblName.Size = new System.Drawing.Size(141, 25);
+            this.LblName.Size = new System.Drawing.Size(176, 31);
             this.LblName.TabIndex = 3;
             this.LblName.Text = "Ghost Name";
             // 
             // TxtNotes
             // 
             this.TxtNotes.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtNotes.Location = new System.Drawing.Point(12, 298);
+            this.TxtNotes.Location = new System.Drawing.Point(16, 367);
+            this.TxtNotes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtNotes.Multiline = true;
             this.TxtNotes.Name = "TxtNotes";
             this.TxtNotes.ReadOnly = true;
             this.TxtNotes.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtNotes.Size = new System.Drawing.Size(220, 271);
+            this.TxtNotes.Size = new System.Drawing.Size(292, 333);
             this.TxtNotes.TabIndex = 14;
             // 
             // ImgItem
             // 
-            this.ImgItem.Location = new System.Drawing.Point(12, 49);
+            this.ImgItem.Location = new System.Drawing.Point(16, 60);
+            this.ImgItem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ImgItem.Name = "ImgItem";
-            this.ImgItem.Size = new System.Drawing.Size(220, 243);
+            this.ImgItem.Size = new System.Drawing.Size(293, 299);
             this.ImgItem.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ImgItem.TabIndex = 18;
             this.ImgItem.TabStop = false;
             // 
             // ImgCard
             // 
-            this.ImgCard.Location = new System.Drawing.Point(238, 266);
+            this.ImgCard.Location = new System.Drawing.Point(317, 327);
+            this.ImgCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ImgCard.Name = "ImgCard";
-            this.ImgCard.Size = new System.Drawing.Size(250, 303);
+            this.ImgCard.Size = new System.Drawing.Size(333, 373);
             this.ImgCard.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ImgCard.TabIndex = 19;
             this.ImgCard.TabStop = false;
             // 
             // LstCards
             // 
+            this.LstCards.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LstCards.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LstCards.FormattingEnabled = true;
-            this.LstCards.ItemHeight = 24;
-            this.LstCards.Location = new System.Drawing.Point(238, 49);
+            this.LstCards.ItemHeight = 29;
+            this.LstCards.Location = new System.Drawing.Point(317, 60);
+            this.LstCards.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.LstCards.Name = "LstCards";
-            this.LstCards.Size = new System.Drawing.Size(250, 76);
+            this.LstCards.Size = new System.Drawing.Size(332, 91);
             this.LstCards.TabIndex = 20;
             this.LstCards.SelectedIndexChanged += new System.EventHandler(this.LstCards_SelectedIndexChanged);
             // 
@@ -92,19 +98,20 @@
             // 
             this.TxtCardDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtCardDescription.ForeColor = System.Drawing.Color.Black;
-            this.TxtCardDescription.Location = new System.Drawing.Point(238, 131);
+            this.TxtCardDescription.Location = new System.Drawing.Point(317, 161);
+            this.TxtCardDescription.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtCardDescription.Multiline = true;
             this.TxtCardDescription.Name = "TxtCardDescription";
             this.TxtCardDescription.ReadOnly = true;
             this.TxtCardDescription.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.TxtCardDescription.Size = new System.Drawing.Size(250, 129);
+            this.TxtCardDescription.Size = new System.Drawing.Size(332, 158);
             this.TxtCardDescription.TabIndex = 21;
             // 
             // TarotCardsInfo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 581);
+            this.ClientSize = new System.Drawing.Size(667, 715);
             this.Controls.Add(this.TxtCardDescription);
             this.Controls.Add(this.LstCards);
             this.Controls.Add(this.ImgCard);
@@ -112,6 +119,7 @@
             this.Controls.Add(this.TxtNotes);
             this.Controls.Add(this.LblName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "TarotCardsInfo";
             this.Text = "TarotCardsInfo";
             ((System.ComponentModel.ISupportInitialize)(this.ImgItem)).EndInit();
