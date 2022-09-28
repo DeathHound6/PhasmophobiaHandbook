@@ -549,14 +549,14 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                         "20%"
                     ),
                     new TarotCard(
-                        "The Wheel of Fortune(loss)",
+                        "The Wheel of Fortune",
                         Color.Red,
                         Resources.card_fortune,
                         "Lose 25% sanity",
                         "20%"
                     ),
                     new TarotCard(
-                        "The Wheel of Fortune(gain)",
+                        "The Wheel of Fortune",
                         Color.Green,
                         Resources.card_fortune,
                         "Gain 25% sanity",
@@ -608,5 +608,121 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             )
         });
         #endregion CursedItems
+
+        #region Items
+        public static List<Item> items = new List<Item>(new Item[]
+        {
+            new Item(
+                "Flashlight",
+                new string[] {},
+                Resources.flash
+            ),
+            new Item(
+                "Strong Flashlight",
+                new string[] {},
+                Resources.s_flash
+            ),
+            new Item(
+                "Salt",
+                new string[] {},
+                Resources.salt
+            ),
+            new Item(
+                "Photo Camera",
+                new string[] {},
+                Resources.photocam
+            ),
+            new Item(
+                "Video camera",
+                new string[] {},
+                Resources.videocam
+            ),
+            new Item(
+                "Tripod",
+                new string[] {},
+                Resources.tripod
+            ),
+            new Item(
+                "Ghost Writing Book",
+                new string[] {},
+                Resources.book
+            ),
+            new Item(
+                "Spirit Box",
+                new string[] {},
+                Resources.box
+            ),
+            new Item(
+                "Candle",
+                new string[] {},
+                Resources.candle
+            ),
+            new Item(
+                "Crucifix",
+                new string[] {},
+                Resources.crucifix
+            ),
+            new Item(
+                "DOTS Projector",
+                new string[] {},
+                Resources.dots
+            ),
+            new Item(
+                "EMF",
+                new string[] {},
+                Resources.emf
+            ),
+            new Item(
+                "Glowstick",
+                new string[] {},
+                Resources.glow
+            ),
+            new Item(
+                "Head Mounted Camera",
+                new string[] {},
+                Resources.hmc
+            ),
+            new Item(
+                "Lighter",
+                new string[] {},
+                Resources.lighter
+            ),
+            new Item(
+                "Motion Sensor",
+                new string[] {},
+                Resources.motion
+            ),
+            new Item(
+                "Sound Sensor",
+                new string[] {},
+                Resources.sound
+            ),
+            new Item(
+                "Parabolic Microphone",
+                new string[] {},
+                Resources.paramic
+            ),
+            new Item(
+                "Sanity Pills",
+                new string[] {},
+                Resources.pills
+            ),
+            new Item(
+                "Smudge STick",
+                new string[] {},
+                Resources.smudge
+            ),
+            new Item(
+                "Thermometer",
+                new string[] {},
+                Resources.thermo
+            ),
+            new Item(
+                "UV Light",
+                new string[] {},
+                Resources.uv
+            )
+        });
+        #endregion
     }
 }

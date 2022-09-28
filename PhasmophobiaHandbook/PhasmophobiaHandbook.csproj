@@ -141,6 +141,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structs\Base\CursedItem.cs" />
     <Compile Include="Structs\Base\Ghost.cs" />
+    <Compile Include="Structs\Base\Item.cs" />
     <Compile Include="Structs\Base\Map.cs" />
     <Compile Include="Structs\Inherited\Constants.cs" />
     <EmbeddedResource Include="Forms\AllCursedItems.resx">
@@ -211,6 +212,28 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\tripod.png" />
+    <None Include="Resources\hmc.png" />
+    <None Include="Resources\motion.png" />
+    <None Include="Resources\paramic.png" />
+    <None Include="Resources\salt.png" />
+    <None Include="Resources\thermo.png" />
+    <None Include="Resources\sound.png" />
+    <None Include="Resources\crucifix.png" />
+    <None Include="Resources\emf.png" />
+    <None Include="Resources\box.png" />
+    <None Include="Resources\book.png" />
+    <None Include="Resources\uv.png" />
+    <None Include="Resources\dots.png" />
+    <None Include="Resources\videocam.png" />
+    <None Include="Resources\s_flash.png" />
+    <None Include="Resources\glow.png" />
+    <None Include="Resources\flash.png" />
+    <None Include="Resources\photocam.png" />
+    <None Include="Resources\pills.png" />
+    <None Include="Resources\lighter.png" />
+    <None Include="Resources\candle.png" />
+    <None Include="Resources\smudge.png" />
     <None Include="Resources\speaker-mute.png" />
     <None Include="Resources\twin_main.wav" />
     <None Include="Resources\twin_decoy.wav" />
