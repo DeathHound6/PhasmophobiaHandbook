@@ -33,7 +33,7 @@ namespace PhasmophobiaHandbook.Forms
 
         private void LstCards_SelectedIndexChanged(object sender, EventArgs e)
         {
-            TarotCard card = cards.Cards.Find(c => c.Name == (string)LstCards.SelectedItem);
+            TarotCard card = cards.Cards[LstCards.SelectedIndex];
             TxtCardDescription.Text = card.Effect;
             TxtCardDescription.AppendText($"{Environment.NewLine}{Environment.NewLine}");
             TxtCardDescription.AppendText($"Draw Chance: {card.DrawChance}");

@@ -32,7 +32,7 @@ namespace PhasmophobiaHandbook.Forms
 
         private void LstQuestions_SelectedIndexChanged(object sender, EventArgs e)
         {
-            OujiaQuestion question = board.Questions.Find(q => q.Type == (string)LstQuestions.SelectedItem);
+            OujiaQuestion question = board.Questions[LstQuestions.SelectedIndex];
             TxtQuestionDescription.Clear();
             TxtQuestionDescription.AppendText(question.Description);
             TxtQuestionDescription.AppendText($"{Environment.NewLine}{Environment.NewLine}");
