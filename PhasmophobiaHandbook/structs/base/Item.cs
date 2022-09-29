@@ -9,15 +9,15 @@ namespace PhasmophobiaHandbook.Structs.Base
         public Bitmap Image { get; private set; }
         public int Price { get; private set; }
         public int Limit { get; private set; }
-        public bool Optional { get; private set; }
-        public Item(string name, string[] notes, Bitmap image, int price, int limit, bool optional)
+        public bool Starter { get; private set; }
+        public Item(string name, string[] notes, Bitmap image, int price, int limit, bool starter)
         {
             Name = name;
             Notes = notes;
             Image = image;
             Price = price;
             Limit = limit;
-            Optional = optional;
+            Starter = starter;
         }
     }
 }

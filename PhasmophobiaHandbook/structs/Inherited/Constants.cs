@@ -614,51 +614,81 @@ namespace PhasmophobiaHandbook.Structs.Inherited
         {
             new Item(
                 "Flashlight",
-                new string[] {},
+                new string[] {
+                    "During a hunt, the flashlight will rapidly flicker if a ghost is within 10 metres and on the same floor (increased range for a Raiju)",
+                    "Like other electronic equipment, holding a lit flashlight during a hunt will alert the ghost of the player's presence if it is within 10 metres (or 2 metres for a Yokai), and should be turned off immediately"
+                },
                 Resources.flash,
                 30,
                 4,
-                false
+                true
             ),
             new Item(
                 "Strong Flashlight",
-                new string[] {},
+                new string[] {
+                    "During a hunt, the flashlight will rapidly flicker if a ghost is within 10 metres and on the same floor (increased range for a Raiju)",
+                    "Like other electronic equipment, holding a lit flashlight during a hunt will alert the ghost of the player's presence if it is within 10 metres (or 2 metres for a Yokai), and should be turned off immediately",
+                    "Strong flashlights are functionally the same as regular flashlights, with the exception of an increased area of effect, and a white shade of light instead of yellow"
+                },
                 Resources.s_flash,
                 50,
                 4,
-                true
+                false
             ),
             new Item(
                 "Salt",
-                new string[] {},
+                new string[] {
+                    "Each salt shaker can be used 3 times",
+                    "When a ghost walks onto a salt pile, a sole-like imprint will be left in the salt pile. Within the next 10 seconds after the salt has been stepped in, footprints may also be created if the ghost moves and makes footstep sounds, which can be found by shining a UV light around the area where the ghost walked. Taking a photo of these footprints counts toward photo rewards",
+                    "Ghosts will not step in salt during a hunt",
+                    "UV Footsteps will not be visibile if the ghost is a Wraith (or a Mimic behaving like a Wraith), and so will not count towards photo rewards"
+                },
                 Resources.salt,
                 15,
                 3,
-                true
+                false
             ),
             new Item(
                 "Photo Camera",
-                new string[] {},
+                new string[] {
+                    "Each photo camera can take a maximum of 5 photos",
+                    "When a ghost manifests during a ghost event or a hunt, the photo camera's display will be distorted, as well as any pictures taken. However, pictures taken in this state will still be labeled in the journal if a valid subject is detected",
+                    "A Ghost picture will not be possible if the ghost is a Phantom, as the ghost will dissapear for a short time",
+                    "There is a 1 second cooldown between taking pictures",
+                    "The first 10 pictures recorded in journal and that are labeled in black will give the player \"points\" depending on the distance and category in the journal"
+                },
                 Resources.photocam,
                 40,
                 3,
-                false
+                true
             ),
             new Item(
-                "Video camera",
-                new string[] {},
+                "Video Camera",
+                new string[] {
+                    "The video camera can be used handheld with its built-in display or placed on the floor or a tripod",
+                    "The video camera will automatically start streaming its video feed to the van when open or placed",
+                    "Night vision can be toggled while holding the active video camera or via the van keyboard",
+                    "When night vision is turned on, any Ghost Orbs present can be seen through the Video Camera",
+                    "If the ghost is a Goryo, its DOTS Projector evidence will only be visible with the Video Camera"
+                },
                 Resources.videocam,
                 50,
                 6,
-                false
+                true
             ),
             new Item(
                 "Tripod",
-                new string[] {},
+                new string[] {
+                    "Picking up a video camera and placing it on top of the tripod will mount the camera on the tripod. Carrying the tripod afterwards will bring the camera along as well, so the player does not need to carry both an empty tripod and an unmounted video camera",
+                    "The video camera can be removed from the tripod by picking it up",
+                    "A tripod must be placed by dropping it",
+                    "The tripod will drop directly below the player, and will face the direction the player was facing when they dropped it",
+                    "Tripods take up your hand slot while carrying it; they cannot be stored in your inventory, and switching to another item or hand while carrying a tripod will automatically drop the tripod"
+                },
                 Resources.tripod,
                 25,
                 5,
-                true
+                false
             ),
             new Item(
                 "Ghost Writing Book",
@@ -666,7 +696,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.book,
                 40,
                 2,
-                false
+                true
             ),
             new Item(
                 "Spirit Box",
@@ -674,7 +704,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.box,
                 50,
                 2,
-                false
+                true
             ),
             new Item(
                 "Candle",
@@ -682,7 +712,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.candle,
                 15,
                 4,
-                true
+                false
             ),
             new Item(
                 "Crucifix",
@@ -690,7 +720,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.crucifix,
                 30,
                 2,
-                true
+                false
             ),
             new Item(
                 "DOTS Projector",
@@ -698,7 +728,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.dots,
                 65,
                 2,
-                false
+                true
             ),
             new Item(
                 "EMF Reader",
@@ -706,7 +736,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.emf,
                 45,
                 2,
-                false
+                true
             ),
             new Item(
                 "Glowstick",
@@ -714,7 +744,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.glow,
                 20,
                 4,
-                true
+                false
             ),
             new Item(
                 "Head Mounted Camera",
@@ -722,7 +752,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.hmc,
                 60,
                 4,
-                true
+                false
             ),
             new Item(
                 "Lighter",
@@ -730,7 +760,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.lighter,
                 10,
                 4,
-                true
+                false
             ),
             new Item(
                 "Motion Sensor",
@@ -738,7 +768,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.motion,
                 100,
                 4,
-                true
+                false
             ),
             new Item(
                 "Sound Sensor",
@@ -746,7 +776,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.sound,
                 80,
                 4,
-                true
+                false
             ),
             new Item(
                 "Parabolic Microphone",
@@ -754,7 +784,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.paramic,
                 50,
                 2,
-                true
+                false
             ),
             new Item(
                 "Sanity Pills",
@@ -762,7 +792,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.pills,
                 20,
                 4,
-                true
+                false
             ),
             new Item(
                 "Smudge Stick",
@@ -770,7 +800,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.smudge,
                 15,
                 4,
-                true
+                false
             ),
             new Item(
                 "Thermometer",
@@ -778,7 +808,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.thermo,
                 30,
                 3,
-                true
+                false
             ),
             new Item(
                 "UV Light",
@@ -786,7 +816,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 Resources.uv,
                 35,
                 2,
-                false
+                true
             )
         });
         #endregion
