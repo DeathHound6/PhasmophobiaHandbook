@@ -7,11 +7,17 @@ namespace PhasmophobiaHandbook.Structs.Base
         public string Name { get; private set; }
         public string[] Notes { get; private set; }
         public Bitmap Image { get; private set; }
-        public Item(string name, string[] notes, Bitmap image)
+        public int Price { get; private set; }
+        public int Limit { get; private set; }
+        public bool Optional { get; private set; }
+        public Item(string name, string[] notes, Bitmap image, int price, int limit, bool optional)
         {
             Name = name;
             Notes = notes;
             Image = image;
+            Price = price;
+            Limit = limit;
+            Optional = optional;
         }
     }
 }

@@ -615,112 +615,178 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             new Item(
                 "Flashlight",
                 new string[] {},
-                Resources.flash
+                Resources.flash,
+                30,
+                4,
+                false
             ),
             new Item(
                 "Strong Flashlight",
                 new string[] {},
-                Resources.s_flash
+                Resources.s_flash,
+                50,
+                4,
+                true
             ),
             new Item(
                 "Salt",
                 new string[] {},
-                Resources.salt
+                Resources.salt,
+                15,
+                3,
+                true
             ),
             new Item(
                 "Photo Camera",
                 new string[] {},
-                Resources.photocam
+                Resources.photocam,
+                40,
+                3,
+                false
             ),
             new Item(
                 "Video camera",
                 new string[] {},
-                Resources.videocam
+                Resources.videocam,
+                50,
+                6,
+                false
             ),
             new Item(
                 "Tripod",
                 new string[] {},
-                Resources.tripod
+                Resources.tripod,
+                25,
+                5,
+                true
             ),
             new Item(
                 "Ghost Writing Book",
                 new string[] {},
-                Resources.book
+                Resources.book,
+                40,
+                2,
+                false
             ),
             new Item(
                 "Spirit Box",
                 new string[] {},
-                Resources.box
+                Resources.box,
+                50,
+                2,
+                false
             ),
             new Item(
                 "Candle",
                 new string[] {},
-                Resources.candle
+                Resources.candle,
+                15,
+                4,
+                true
             ),
             new Item(
                 "Crucifix",
                 new string[] {},
-                Resources.crucifix
+                Resources.crucifix,
+                30,
+                2,
+                true
             ),
             new Item(
                 "DOTS Projector",
                 new string[] {},
-                Resources.dots
+                Resources.dots,
+                65,
+                2,
+                false
             ),
             new Item(
-                "EMF",
+                "EMF Reader",
                 new string[] {},
-                Resources.emf
+                Resources.emf,
+                45,
+                2,
+                false
             ),
             new Item(
                 "Glowstick",
                 new string[] {},
-                Resources.glow
+                Resources.glow,
+                20,
+                4,
+                true
             ),
             new Item(
                 "Head Mounted Camera",
                 new string[] {},
-                Resources.hmc
+                Resources.hmc,
+                60,
+                4,
+                true
             ),
             new Item(
                 "Lighter",
                 new string[] {},
-                Resources.lighter
+                Resources.lighter,
+                10,
+                4,
+                true
             ),
             new Item(
                 "Motion Sensor",
                 new string[] {},
-                Resources.motion
+                Resources.motion,
+                100,
+                4,
+                true
             ),
             new Item(
                 "Sound Sensor",
                 new string[] {},
-                Resources.sound
+                Resources.sound,
+                80,
+                4,
+                true
             ),
             new Item(
                 "Parabolic Microphone",
                 new string[] {},
-                Resources.paramic
+                Resources.paramic,
+                50,
+                2,
+                true
             ),
             new Item(
                 "Sanity Pills",
                 new string[] {},
-                Resources.pills
+                Resources.pills,
+                20,
+                4,
+                true
             ),
             new Item(
-                "Smudge STick",
+                "Smudge Stick",
                 new string[] {},
-                Resources.smudge
+                Resources.smudge,
+                15,
+                4,
+                true
             ),
             new Item(
                 "Thermometer",
                 new string[] {},
-                Resources.thermo
+                Resources.thermo,
+                30,
+                3,
+                true
             ),
             new Item(
                 "UV Light",
                 new string[] {},
-                Resources.uv
+                Resources.uv,
+                35,
+                2,
+                false
             )
         });
         #endregion
