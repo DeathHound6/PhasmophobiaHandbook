@@ -806,7 +806,7 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                 new string[] {
                     "At the point the ghost initiates a hunt, if a crucifix is within 3 metres of it (or 5 for a Demon), the hunt will fail to begin. Does not apply to cursed hunts",
                     "The crucifix works both when thrown down or while held in hand",
-                    "Each time a crucifix is used, and EMF 2 reading is shown",
+                    "Each time a crucifix is used, an EMF 2 reading is shown",
                     "The crucifix has 2 charges. When one charge is used, one side of the crucifix will break off and disappear. When the whole crucifix is used, it will glow red. At this point, it will have no effect on the ghost",
                     "Each time a crucifix is used, the ghost will wait a minimum of 5 seconds before attempting to hunt again",
                     "The crucifix range is not limited by any obstacles like walls or doors",
