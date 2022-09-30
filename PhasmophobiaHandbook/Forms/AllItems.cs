@@ -52,7 +52,7 @@ namespace PhasmophobiaHandbook.Forms
 
         private void BtnSpiritBox_Click(object sender, System.EventArgs e)
         {
-            new ItemInfo(Constants.items[7]).Show();
+            new SpiritBoxInfo().Show();
         }
 
         private void BtnCandle_Click(object sender, System.EventArgs e)
