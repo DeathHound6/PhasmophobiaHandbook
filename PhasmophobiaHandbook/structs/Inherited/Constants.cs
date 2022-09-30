@@ -692,7 +692,13 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Ghost Writing Book",
-                new string[] {},
+                new string[] {
+                    "The book must then be placed to allow a ghost to write in it; the book cannot be written in if it is thrown on the ground or held in hand",
+                    "If Ghost Writing is an evidence type for the ghost, the ghost has a chance of interacting with the book by writing in it. When this happens, the book will slightly levitate and the pen will start to frantically scribble on the pages visually and audibly, followed by the pen being thrown on the ground",
+                    "Ghosts with the evidence type will prioritise writing in the book over attempting to throw it, though it will not write in the book during a hunt",
+                    "Ghosts without the evidence are only able to throw the book",
+                    "Once written in, the book can be photographed using a Photo Camera to receive photo points for a Ghost Interaction"
+                },
                 Resources.book,
                 40,
                 2,
@@ -700,15 +706,96 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Spirit Box",
-                new string[] {},
+                new string[] {
+                    "Players can ask questions via the Spirit Box using Voice Chat",
+                    "The player must be within 3 metres for the Spirit Box to receive questions",
+                    "The player must either be in the same room as the ghost, or within 3 meters of it if not in the same room",
+                    "The Deogen has a 33% chance to respond with heavy breathing instead of a regular response if the player is standing within 1 metre of the ghost",
+                    "The Moroi will curse the player who asked a question if they successfully obtain a response. The cursing response will not sound any different",
+                    "Some of the valid questions listed are not intentionally added to the game, and are misinterpreted variants of valid questions"
+                },
                 Resources.box,
                 50,
                 2,
-                true
+                true,
+                new List<SpiritBoxQuestion>(new SpiritBoxQuestion[]{
+                    new SpiritBoxQuestion(
+                        "Aggression",
+                        new string[]
+                        {
+                            "What do you want?",
+                            "Why are you here?",
+                            "Do you want to hurt us?",
+                            "Are you angry?",
+                            "Do you want us here?",
+                            "Shall we leave?",
+                            "Should we leave?",
+                            "Do you want us to leave?",
+                            "What should we do?",
+                            "Can we help?",
+                            "Is anything wrong?",
+                            "Are you friendly?",
+                            "Are you dangerous?",
+                            "Are you French?",
+                            "Are you hungry?",
+                            "What do you want to eat?",
+                            "Do you want to build a snowman?",
+                            "Do you want to watch Spongebob?",
+                            "Do you want to smash?"
+                        }
+                    ),
+                    new SpiritBoxQuestion(
+                        "Location",
+                        new string[]
+                        {
+                            "Where are you?",
+                            "Are you close?",
+                            "Can you show yourself?",
+                            "Give us a sign",
+                            "Let us know you are here",
+                            "Show yourself",
+                            "Can you talk?",
+                            "Speak to us",
+                            "Are you here?",
+                            "Are you with us?",
+                            "Anybody with us?",
+                            "Is anyone here?",
+                            "Anybody in the room?",
+                            "Anybody here?",
+                            "Is there a spirit here?",
+                            "Is there a Ghost here?",
+                            "What is your location?",
+                            "Are you among us?",
+                            "Are you Casper?",
+                            "Yourself?",
+                            "Let us know you want a beer"
+                        }
+                    ),
+                    new SpiritBoxQuestion(
+                        "Age",
+                        new string[]
+                        {
+                            "How old are you?",
+                            "How young are you?",
+                            "What is your age?",
+                            "When were you born?",
+                            "Are you a child?",
+                            "Are you old?",
+                            "Are you young?",
+                            "Are you bored?"
+                        }
+                    )
+                })
             ),
             new Item(
                 "Candle",
-                new string[] {},
+                new string[] {
+                    "Players can light a candle held in their hand if they carry a lighter in their inventory",
+                    "When held, a lit candle will stop passive sanity drain that results from being in the dark",
+                    "Ghosts will occasionally blow out a candle that is within 4 metres of it. The fire will be extinguished with a blowing \"sigh\" effect",
+                    "Candles can be placed down on surfaces, which will be indicated by a translucent outline of the candle. This will place the candle upright relative to the surface",
+                    "If an Onryo blows out a candle, it has a chance of starting a hunt, regardless of sanity; this chance increases for every dead player"
+                },
                 Resources.candle,
                 15,
                 4,
@@ -716,7 +803,15 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Crucifix",
-                new string[] {},
+                new string[] {
+                    "At the point the ghost initiates a hunt, if a crucifix is within 3 metres of it (or 5 for a Demon), the hunt will fail to begin. Does not apply to cursed hunts",
+                    "The crucifix works both when thrown down or while held in hand",
+                    "Each time a crucifix is used, and EMF 2 reading is shown",
+                    "The crucifix has 2 charges. When one charge is used, one side of the crucifix will break off and disappear. When the whole crucifix is used, it will glow red. At this point, it will have no effect on the ghost",
+                    "Each time a crucifix is used, the ghost will wait a minimum of 5 seconds before attempting to hunt again",
+                    "The crucifix range is not limited by any obstacles like walls or doors",
+                    "A picture of a used crucifix can be a taken for a photo reward, once for each charge is used"
+                },
                 Resources.crucifix,
                 30,
                 2,
@@ -724,7 +819,14 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "DOTS Projector",
-                new string[] {},
+                new string[] {
+                    "The DOTS Projector can be mounted on the wall or floor similar to a motion sensor",
+                    "It emits a matrix of bright green laser points in a small area from the projector",
+                    "If DOTS Projector is one of the ghost's evidences, and the ghost is within 7 metres of the projector on the same floor, the ghost will occasionally interact with the projector",
+                    "A mesh-like figure representative of the ghost model will appear running or crawling through the grid. This can be observed by the naked eye or through a video camera, except if the ghost is a Goryo, which requires a video camera to see the figure",
+                    "Dead players cannot see the ghost pass through the DOTS Projector",
+                    "The figure seen via the DOTS Projector is unrelated to the actual motion of the ghost; its appearance only indicates that the ghost is near enough to interact with the DOTS Projector"
+                },
                 Resources.dots,
                 65,
                 2,
@@ -732,7 +834,15 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "EMF Reader",
-                new string[] {},
+                new string[] {
+                    "If the EMF reader is within ~1.5 metres of an EMF emission, the reader will light up various numbers of its LEDs",
+                    "If multiple EMF emissions are in range, the one with the highest EMF level will be indicated by the reader",
+                    "EMF 1 (Blue) - No EMF (EMF Reader is on, defualt state)",
+                    "EMF 2 (Green) - Interaction",
+                    "EMF 3 (Yellow) - Throwing an object",
+                    "EMF 4 (Orange) - Manifestation",
+                    "EMF 5 (Red) - Evidence (25% chance)"
+                },
                 Resources.emf,
                 45,
                 2,
@@ -740,7 +850,10 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Glowstick",
-                new string[] {},
+                new string[] {
+                    "The UV light emitted by the glowstick has the same functionality as the UV Flashlight",
+                    "Once used, glows brightly for 1 minute, then fades to half intensity over the next 10 seconds"
+                },
                 Resources.glow,
                 20,
                 4,
@@ -748,7 +861,13 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Head Mounted Camera",
-                new string[] {},
+                new string[] {
+                    "Picking up the cameras will put them on the player's head; they can be placed back at any time",
+                    "These cameras do not take up an inventory slot, and act as a regular video camera when worn, providing a Video Feed in the van",
+                    "They move with the player and look in the direction the player's model is facing at the time",
+                    "Head Mounted Cameras do not attract the ghost during hunts and will not power the Raiju's ability",
+                    "Like with regular video cameras, Head Mounted Cameras can switch between visual and night-vision modes, and can be used to detect Ghost Orbs when in night vision mode"
+                },
                 Resources.hmc,
                 60,
                 4,
@@ -756,7 +875,11 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Lighter",
-                new string[] {},
+                new string[] {
+                    "The lighter can be used either when held or when in the inventory. The lighter can be lit by right-clicking while holding it",
+                    "Smudge sticks, summoning circle candles and regular candles can then be lit by aiming at the item and pressing the Secondary Use key",
+                    "If the lighter is offhand in the inventory, smudge sticks or candles being held on-hand can be lit by pressing the Secondary Use key"
+                },
                 Resources.lighter,
                 10,
                 4,
@@ -764,7 +887,13 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Motion Sensor",
-                new string[] {},
+                new string[] {
+                    "A motion sensor can used by placing it on the wall or floor",
+                    "Motion sensors placed on a wall display on the Site Map in the van as a red bar, indicating its effective detection distance",
+                    "When a player, ghost, or dead player walks past the front of it, the motion sensor will emit a bright light for 3 seconds",
+                    "The bar on the site map will also turn green for 6 seconds, and an audible beep will play from the monitor",
+                    "Motion sensors that are not displayed will still play the beep"
+                },
                 Resources.motion,
                 100,
                 4,
@@ -772,7 +901,15 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Sound Sensor",
-                new string[] {},
+                new string[] {
+                    "A sound sensor can be placed on the ground",
+                    "The detection area is highlighted as an orange circle on the Site Map in the Van",
+                    "The sound sensor picks up most noises, except for players talking through local and global chat",
+                    "Any noise picked up will appear as a bar on the Sound Monitor, showing how loud the sound was and identifying which sensor picked up the sound",
+                    "The value displayed will update every second",
+                    "0.1 dB picked up on a Parabolic Microphone is equivalent to 1% on the Sound Monitor",
+                    "The area covered by a sound sensor is fixed, but relative to the in-game map and not the building"
+                },
                 Resources.sound,
                 80,
                 4,
@@ -780,7 +917,24 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Parabolic Microphone",
-                new string[] {},
+                new string[] {
+                    "The parabolic microphone must be pointed in the direction that sounds are being made to pick up any form of interaction on the screen. It has a range of 30 meters with a 6 meter wide cone",
+                    "If a ghost interacts with something, such as moving a door, throwing an object, or causing footsteps, the microphone will detect the sound for 3 seconds",
+                    "Mylings make paranormal sounds more often than other ghosts",
+                    "Banshees have a certain chance of using a unique scream",
+                    "Morois will curse players that hear their paranormal sounds, resulting in an increased passive sanity drain",
+                    "Ambient sounds not caused by ghost - less than 0.5 dB",
+                    "Ghost's current room - less than 1 dB",
+                    "Keyboard being pressed - 1.0-2.0 dB",
+                    "Light being toggled - 1.0-2.0 dB",
+                    "Fuse box - 3.0 dB",
+                    "Door (player) - 4dB",
+                    "Door (ghost) - variable",
+                    "Desk radio static - 5.0 dB",
+                    "Running sink - 5.0 dB",
+                    "Spirit box static - 5.0 dB",
+                    "Objects thrown - more than 1dB"
+                },
                 Resources.paramic,
                 50,
                 2,
@@ -788,7 +942,14 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Sanity Pills",
-                new string[] {},
+                new string[] {
+                    "Consuming a sanity pill will replenish a certain amount of the player's sanity up to the maximum of 100%",
+                    "Amateur - 40%",
+                    "Intermediate - 35%",
+                    "Professional - 30%",
+                    "Nightmare - 25%",
+                    "Sanity pills cannot be consumed if the player's sanity is above 95%"
+                },
                 Resources.pills,
                 20,
                 4,
@@ -796,7 +957,16 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Smudge Stick",
-                new string[] {},
+                new string[] {
+                    "To light a smudge stick, have a lighter in the inventory, hold the smudge stick, then press the Primary Use key",
+                    "Once lit, the smudge sticks will begin to smoke for 6 seconds",
+                    "When the smudge stick is used up, the smoke will stop being emitted and the model will finish burning to a stub",
+                    "When the ghost is within 6 metres of a smudge stick while it is burning, ghost activity will be increased marginally, and the ghost will be unable to initiate a regular hunt for 90 seconds, 180 seconds for a Spirit, or 60 seconds for a Demon",
+                    "If the ghost is a Yurei, it will also not wander outside of its current room for 90 seconds",
+                    "Smudging will not prevent cursed hunts nor stop an already ongoing hunt, but doing this during a hunt it will prevent further attempts to initiate regular hunts for the specified duration starting from when the smudging effect is applied",
+                    "Using another smudge stick before an existing hunt prevention timer has run out will not reset or extend the timer; the effect does not stack in this case",
+                    "Smudge sticks can be used to \"repel\" the ghost during a hunt. When the effect is successfully applied, the ghost will act as if there were no players around; one can walk through it without dying. After this period, the ghost will be able to see and kill players again"
+                },
                 Resources.smudge,
                 15,
                 4,
@@ -804,7 +974,10 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "Thermometer",
-                new string[] {},
+                new string[] {
+                    "The thermometer reads the temperature by casting a short ray in the direction the player is facing",
+                    "The reading shown will update every two seconds"
+                },
                 Resources.thermo,
                 30,
                 3,
@@ -812,7 +985,12 @@ namespace PhasmophobiaHandbook.Structs.Inherited
             ),
             new Item(
                 "UV Light",
-                new string[] {},
+                new string[] {
+                    "The UV flashlight can be activated at the same time as a standard flashlight or Strong Flashlight, but any visible fingerprints or footprints may contrast poorly and be hard to see under their light",
+                    "The UV flashlight projects a conical, purple light in front of it. This light is weak relative to flashlights or strong flashlights, but stronger than a dimmed-out glowstick",
+                    "When a UV Flashlight is shone towards a fingerprint, a visible green print will be highlighted. The same applies to footprints",
+                    "The UV flashlight counts as an electronic equipment, and will flicker rapidly near a ghost which has manifested and attract it during a hunt when nearby"
+                },
                 Resources.uv,
                 35,
                 2,
