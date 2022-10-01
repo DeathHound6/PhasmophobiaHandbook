@@ -23,24 +23,14 @@ namespace PhasmophobiaHandbook.Forms
 
         private void CBoxFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (index != -1 && CBoxFilter.CheckedIndices.Count >= 1)
-            {
-                CBoxFilter.SetItemChecked(CBoxFilter.SelectedIndex, false);
-                MessageBox.Show("You can only filter by 1 map size", "Invalid Filter", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            try
-            {
-                index = CBoxFilter.CheckedIndices[0];
-            }
-            catch (IndexOutOfRangeException)
-            {
-                index = -1;
-            }
+            int selected = CBoxFilter.SelectedIndex;
             foreach (Button btn in Controls.OfType<Button>())
             {
                 btn.ForeColor = Color.Black;
             }
+            if (selected != index && index != -1)
+                CBoxFilter.SetItemChecked(index, false);
+            index = CBoxFilter.CheckedIndices.Count > 0 ? CBoxFilter.CheckedIndices[0] : -1;
             if (index == -1)
                 return;
             List<Map> filtered = Constants.maps.FindAll(m => {
