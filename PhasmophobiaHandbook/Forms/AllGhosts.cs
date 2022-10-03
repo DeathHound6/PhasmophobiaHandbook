@@ -12,7 +12,6 @@ namespace PhasmophobiaHandbook.Forms
     public partial class AllGhosts : Form
     {
         private List<GhostEvidence> evidencesChecked = new List<GhostEvidence>();
-
         public AllGhosts()
         {
             InitializeComponent();
@@ -32,7 +31,7 @@ namespace PhasmophobiaHandbook.Forms
 
         private void CBoxFilter_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (evidencesChecked.Count >= 3 && CBoxFilter.CheckedItems.Count >= 3)
+            if (evidencesChecked.Count == 3 && CBoxFilter.CheckedItems.Count > 3)
             {
                 CBoxFilter.SetItemChecked(CBoxFilter.SelectedIndex, false);
                 MessageBox.Show("You can only select up to 3 evidences to filter", "Invalid Filter", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -42,16 +41,13 @@ namespace PhasmophobiaHandbook.Forms
                 evidencesChecked.Add((GhostEvidence)CBoxFilter.SelectedIndex);
             else if (CBoxFilter.CheckedItems.Count < evidencesChecked.Count)
                 evidencesChecked.Remove((GhostEvidence)CBoxFilter.SelectedIndex);
-            foreach (Button btn in Controls.OfType<Button>())
+            foreach(Ghost ghost in Constants.ghosts)
             {
-                btn.ForeColor = Color.Black;
-            }
-            List<Ghost> filtered = Constants.ghosts.FindAll(g => {
-                return !evidencesChecked.All(ev => g.Evidences.Contains(ev));
-            });
-            foreach(Ghost ghost in filtered)
-            {
-                Controls.OfType<Button>().Single(button => button.Text == ghost.Name).ForeColor = Color.Gray;
+                Button button = Controls.OfType<Button>().Single(b => b.Text == ghost.Name);
+                if (!evidencesChecked.All(ev => ghost.Evidences.Contains(ev)))
+                    button.ForeColor = Color.Gray;
+                else
+                    button.ForeColor = Color.Black;
             }
         }
 
@@ -173,6 +169,14 @@ namespace PhasmophobiaHandbook.Forms
         private void BtnThaye_Click(object sender, EventArgs e)
         {
             new GhostInfo(Constants.ghosts[23]).Show();
+        }
+
+        private void CBoxFilter_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            foreach (Button button in Controls.OfType<Button>())
+            {
+                button.ForeColor = Color.Black;
+            }
         }
     }
 }

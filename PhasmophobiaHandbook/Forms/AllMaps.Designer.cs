@@ -58,7 +58,7 @@
             this.BtnAsylum.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAsylum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnAsylum.Location = new System.Drawing.Point(35, 65);
-            this.BtnAsylum.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnAsylum.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAsylum.Name = "BtnAsylum";
             this.BtnAsylum.Size = new System.Drawing.Size(164, 90);
             this.BtnAsylum.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.BtnBleasedale.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBleasedale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBleasedale.Location = new System.Drawing.Point(35, 161);
-            this.BtnBleasedale.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnBleasedale.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBleasedale.Name = "BtnBleasedale";
             this.BtnBleasedale.Size = new System.Drawing.Size(164, 90);
             this.BtnBleasedale.TabIndex = 3;
@@ -84,7 +84,7 @@
             this.BtnBrownstone.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBrownstone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnBrownstone.Location = new System.Drawing.Point(35, 258);
-            this.BtnBrownstone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnBrownstone.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBrownstone.Name = "BtnBrownstone";
             this.BtnBrownstone.Size = new System.Drawing.Size(164, 90);
             this.BtnBrownstone.TabIndex = 4;
@@ -97,7 +97,7 @@
             this.BtnEdgefield.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEdgefield.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEdgefield.Location = new System.Drawing.Point(35, 356);
-            this.BtnEdgefield.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEdgefield.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEdgefield.Name = "BtnEdgefield";
             this.BtnEdgefield.Size = new System.Drawing.Size(164, 90);
             this.BtnEdgefield.TabIndex = 5;
@@ -110,7 +110,7 @@
             this.BtnTanglewood.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnTanglewood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnTanglewood.Location = new System.Drawing.Point(207, 356);
-            this.BtnTanglewood.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnTanglewood.Margin = new System.Windows.Forms.Padding(4);
             this.BtnTanglewood.Name = "BtnTanglewood";
             this.BtnTanglewood.Size = new System.Drawing.Size(164, 90);
             this.BtnTanglewood.TabIndex = 6;
@@ -123,7 +123,7 @@
             this.BtnWillow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnWillow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnWillow.Location = new System.Drawing.Point(207, 453);
-            this.BtnWillow.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnWillow.Margin = new System.Windows.Forms.Padding(4);
             this.BtnWillow.Name = "BtnWillow";
             this.BtnWillow.Size = new System.Drawing.Size(164, 90);
             this.BtnWillow.TabIndex = 11;
@@ -136,7 +136,7 @@
             this.BtnGrafton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGrafton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnGrafton.Location = new System.Drawing.Point(35, 453);
-            this.BtnGrafton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGrafton.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGrafton.Name = "BtnGrafton";
             this.BtnGrafton.Size = new System.Drawing.Size(164, 90);
             this.BtnGrafton.TabIndex = 10;
@@ -149,7 +149,7 @@
             this.BtnRidgeview.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRidgeview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnRidgeview.Location = new System.Drawing.Point(207, 258);
-            this.BtnRidgeview.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnRidgeview.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRidgeview.Name = "BtnRidgeview";
             this.BtnRidgeview.Size = new System.Drawing.Size(164, 90);
             this.BtnRidgeview.TabIndex = 9;
@@ -162,7 +162,7 @@
             this.BtnPrison.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrison.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnPrison.Location = new System.Drawing.Point(207, 161);
-            this.BtnPrison.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnPrison.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPrison.Name = "BtnPrison";
             this.BtnPrison.Size = new System.Drawing.Size(164, 90);
             this.BtnPrison.TabIndex = 8;
@@ -175,7 +175,7 @@
             this.BtnCampsite.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCampsite.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCampsite.Location = new System.Drawing.Point(207, 65);
-            this.BtnCampsite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCampsite.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCampsite.Name = "BtnCampsite";
             this.BtnCampsite.Size = new System.Drawing.Size(164, 90);
             this.BtnCampsite.TabIndex = 7;
@@ -194,11 +194,12 @@
             "Medium",
             "Large"});
             this.CBoxFilter.Location = new System.Drawing.Point(404, 150);
-            this.CBoxFilter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CBoxFilter.Margin = new System.Windows.Forms.Padding(4);
             this.CBoxFilter.Name = "CBoxFilter";
             this.CBoxFilter.Size = new System.Drawing.Size(223, 100);
             this.CBoxFilter.TabIndex = 26;
             this.CBoxFilter.SelectedIndexChanged += new System.EventHandler(this.CBoxFilter_SelectedIndexChanged);
+            this.CBoxFilter.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.CBoxFilter_MouseDoubleClick);
             // 
             // AllMaps
             // 
@@ -218,7 +219,7 @@
             this.Controls.Add(this.BtnAsylum);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AllMaps";
             this.Text = "AllMaps";
             this.ResumeLayout(false);

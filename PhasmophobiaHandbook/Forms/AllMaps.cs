@@ -91,5 +91,13 @@ namespace PhasmophobiaHandbook.Forms
         {
             new MapInfo(Constants.maps[9]).Show();
         }
+
+        private void CBoxFilter_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            foreach (Button button in Controls.OfType<Button>())
+            {
+                button.ForeColor = Color.Black;
+            }
+        }
     }
 }
