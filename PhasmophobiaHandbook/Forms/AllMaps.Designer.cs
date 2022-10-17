@@ -40,6 +40,7 @@
             this.BtnPrison = new System.Windows.Forms.Button();
             this.BtnCampsite = new System.Windows.Forms.Button();
             this.CBoxFilter = new System.Windows.Forms.CheckedListBox();
+            this.BtnWoodwind = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,12 +58,12 @@
             // 
             this.BtnAsylum.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnAsylum.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnAsylum.Location = new System.Drawing.Point(35, 65);
+            this.BtnAsylum.Location = new System.Drawing.Point(35, 66);
             this.BtnAsylum.Margin = new System.Windows.Forms.Padding(4);
             this.BtnAsylum.Name = "BtnAsylum";
-            this.BtnAsylum.Size = new System.Drawing.Size(164, 90);
+            this.BtnAsylum.Size = new System.Drawing.Size(164, 117);
             this.BtnAsylum.TabIndex = 2;
-            this.BtnAsylum.Text = "Asylum";
+            this.BtnAsylum.Text = "Sunny Meadows Medical Institution";
             this.BtnAsylum.UseVisualStyleBackColor = true;
             this.BtnAsylum.Click += new System.EventHandler(this.BtnAsylum_Click);
             // 
@@ -70,10 +71,10 @@
             // 
             this.BtnBleasedale.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBleasedale.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBleasedale.Location = new System.Drawing.Point(35, 161);
+            this.BtnBleasedale.Location = new System.Drawing.Point(35, 191);
             this.BtnBleasedale.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBleasedale.Name = "BtnBleasedale";
-            this.BtnBleasedale.Size = new System.Drawing.Size(164, 90);
+            this.BtnBleasedale.Size = new System.Drawing.Size(164, 117);
             this.BtnBleasedale.TabIndex = 3;
             this.BtnBleasedale.Text = "Bleasedale Farmhouse";
             this.BtnBleasedale.UseVisualStyleBackColor = true;
@@ -83,10 +84,10 @@
             // 
             this.BtnBrownstone.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnBrownstone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnBrownstone.Location = new System.Drawing.Point(35, 258);
+            this.BtnBrownstone.Location = new System.Drawing.Point(35, 316);
             this.BtnBrownstone.Margin = new System.Windows.Forms.Padding(4);
             this.BtnBrownstone.Name = "BtnBrownstone";
-            this.BtnBrownstone.Size = new System.Drawing.Size(164, 90);
+            this.BtnBrownstone.Size = new System.Drawing.Size(164, 117);
             this.BtnBrownstone.TabIndex = 4;
             this.BtnBrownstone.Text = "Brownstone High School";
             this.BtnBrownstone.UseVisualStyleBackColor = true;
@@ -96,12 +97,12 @@
             // 
             this.BtnEdgefield.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnEdgefield.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEdgefield.Location = new System.Drawing.Point(35, 356);
+            this.BtnEdgefield.Location = new System.Drawing.Point(35, 441);
             this.BtnEdgefield.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEdgefield.Name = "BtnEdgefield";
-            this.BtnEdgefield.Size = new System.Drawing.Size(164, 90);
+            this.BtnEdgefield.Size = new System.Drawing.Size(164, 117);
             this.BtnEdgefield.TabIndex = 5;
-            this.BtnEdgefield.Text = "Edgefield Street House";
+            this.BtnEdgefield.Text = "42 Edgefield Road";
             this.BtnEdgefield.UseVisualStyleBackColor = true;
             this.BtnEdgefield.Click += new System.EventHandler(this.BtnEdgefield_Click);
             // 
@@ -109,12 +110,12 @@
             // 
             this.BtnTanglewood.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnTanglewood.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnTanglewood.Location = new System.Drawing.Point(207, 356);
+            this.BtnTanglewood.Location = new System.Drawing.Point(225, 441);
             this.BtnTanglewood.Margin = new System.Windows.Forms.Padding(4);
             this.BtnTanglewood.Name = "BtnTanglewood";
-            this.BtnTanglewood.Size = new System.Drawing.Size(164, 90);
+            this.BtnTanglewood.Size = new System.Drawing.Size(164, 117);
             this.BtnTanglewood.TabIndex = 6;
-            this.BtnTanglewood.Text = "Tanglewood Street House";
+            this.BtnTanglewood.Text = "6 Tanglewood Drive";
             this.BtnTanglewood.UseVisualStyleBackColor = true;
             this.BtnTanglewood.Click += new System.EventHandler(this.BtnTanglewood_Click);
             // 
@@ -122,12 +123,12 @@
             // 
             this.BtnWillow.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnWillow.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnWillow.Location = new System.Drawing.Point(207, 453);
+            this.BtnWillow.Location = new System.Drawing.Point(420, 191);
             this.BtnWillow.Margin = new System.Windows.Forms.Padding(4);
             this.BtnWillow.Name = "BtnWillow";
-            this.BtnWillow.Size = new System.Drawing.Size(164, 90);
+            this.BtnWillow.Size = new System.Drawing.Size(164, 117);
             this.BtnWillow.TabIndex = 11;
-            this.BtnWillow.Text = "Willow Street House";
+            this.BtnWillow.Text = "13 Willow Street";
             this.BtnWillow.UseVisualStyleBackColor = true;
             this.BtnWillow.Click += new System.EventHandler(this.BtnWillow_Click);
             // 
@@ -135,10 +136,10 @@
             // 
             this.BtnGrafton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnGrafton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnGrafton.Location = new System.Drawing.Point(35, 453);
+            this.BtnGrafton.Location = new System.Drawing.Point(420, 316);
             this.BtnGrafton.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGrafton.Name = "BtnGrafton";
-            this.BtnGrafton.Size = new System.Drawing.Size(164, 90);
+            this.BtnGrafton.Size = new System.Drawing.Size(164, 117);
             this.BtnGrafton.TabIndex = 10;
             this.BtnGrafton.Text = "Grafton Farmhouse";
             this.BtnGrafton.UseVisualStyleBackColor = true;
@@ -148,12 +149,12 @@
             // 
             this.BtnRidgeview.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRidgeview.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnRidgeview.Location = new System.Drawing.Point(207, 258);
+            this.BtnRidgeview.Location = new System.Drawing.Point(225, 316);
             this.BtnRidgeview.Margin = new System.Windows.Forms.Padding(4);
             this.BtnRidgeview.Name = "BtnRidgeview";
-            this.BtnRidgeview.Size = new System.Drawing.Size(164, 90);
+            this.BtnRidgeview.Size = new System.Drawing.Size(164, 117);
             this.BtnRidgeview.TabIndex = 9;
-            this.BtnRidgeview.Text = "Ridgeview Road House";
+            this.BtnRidgeview.Text = "10 Ridgeview Court";
             this.BtnRidgeview.UseVisualStyleBackColor = true;
             this.BtnRidgeview.Click += new System.EventHandler(this.BtnRidgeview_Click);
             // 
@@ -161,10 +162,10 @@
             // 
             this.BtnPrison.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrison.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnPrison.Location = new System.Drawing.Point(207, 161);
+            this.BtnPrison.Location = new System.Drawing.Point(225, 191);
             this.BtnPrison.Margin = new System.Windows.Forms.Padding(4);
             this.BtnPrison.Name = "BtnPrison";
-            this.BtnPrison.Size = new System.Drawing.Size(164, 90);
+            this.BtnPrison.Size = new System.Drawing.Size(164, 117);
             this.BtnPrison.TabIndex = 8;
             this.BtnPrison.Text = "Prison";
             this.BtnPrison.UseVisualStyleBackColor = true;
@@ -174,10 +175,10 @@
             // 
             this.BtnCampsite.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnCampsite.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnCampsite.Location = new System.Drawing.Point(207, 65);
+            this.BtnCampsite.Location = new System.Drawing.Point(228, 66);
             this.BtnCampsite.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCampsite.Name = "BtnCampsite";
-            this.BtnCampsite.Size = new System.Drawing.Size(164, 90);
+            this.BtnCampsite.Size = new System.Drawing.Size(164, 117);
             this.BtnCampsite.TabIndex = 7;
             this.BtnCampsite.Text = "Maple Lodge Campsite";
             this.BtnCampsite.UseVisualStyleBackColor = true;
@@ -193,7 +194,7 @@
             "Small",
             "Medium",
             "Large"});
-            this.CBoxFilter.Location = new System.Drawing.Point(404, 150);
+            this.CBoxFilter.Location = new System.Drawing.Point(420, 83);
             this.CBoxFilter.Margin = new System.Windows.Forms.Padding(4);
             this.CBoxFilter.Name = "CBoxFilter";
             this.CBoxFilter.Size = new System.Drawing.Size(223, 100);
@@ -201,11 +202,25 @@
             this.CBoxFilter.SelectedIndexChanged += new System.EventHandler(this.CBoxFilter_SelectedIndexChanged);
             this.CBoxFilter.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.CBoxFilter_MouseDoubleClick);
             // 
+            // BtnWoodwind
+            // 
+            this.BtnWoodwind.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnWoodwind.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnWoodwind.Location = new System.Drawing.Point(420, 441);
+            this.BtnWoodwind.Margin = new System.Windows.Forms.Padding(4);
+            this.BtnWoodwind.Name = "BtnWoodwind";
+            this.BtnWoodwind.Size = new System.Drawing.Size(164, 117);
+            this.BtnWoodwind.TabIndex = 27;
+            this.BtnWoodwind.Text = "Camp Woodwind";
+            this.BtnWoodwind.UseVisualStyleBackColor = true;
+            this.BtnWoodwind.Click += new System.EventHandler(this.BtnWoodwind_Click);
+            // 
             // AllMaps
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(676, 571);
+            this.Controls.Add(this.BtnWoodwind);
             this.Controls.Add(this.CBoxFilter);
             this.Controls.Add(this.BtnWillow);
             this.Controls.Add(this.BtnGrafton);
@@ -241,5 +256,6 @@
         private System.Windows.Forms.Button BtnPrison;
         private System.Windows.Forms.Button BtnCampsite;
         private System.Windows.Forms.CheckedListBox CBoxFilter;
+        private System.Windows.Forms.Button BtnWoodwind;
     }
 }

@@ -278,16 +278,17 @@ namespace PhasmophobiaHandbook.Structs.Inherited
 
         #region Maps
         public static List<Map> maps = new List<Map>(new Map[] {
-            new Map("Asylum", Resources.asylum, MapSize.Large),
+            new Map("Sunny Meadows Medical Insitution", Resources.sunny_meadows, MapSize.Large),
             new Map("Bleasedale Farmhouse", Resources.bleasdale, MapSize.Small),
             new Map("Brownstone High School", Resources.brownstone, MapSize.Medium),
-            new Map("Edgefield Street House", Resources.edgefield, MapSize.Small),
+            new Map("42 Edgefield Road", Resources.edgefield, MapSize.Small),
             new Map("Grafton Farmhouse", Resources.grafton, MapSize.Small),
             new Map("Maple Lodge Campsite", Resources.maplelodge, MapSize.Medium),
             new Map("Prison", Resources.prison, MapSize.Medium),
-            new Map("Ridgeview Road House", Resources.ridgeview, MapSize.Small),
-            new Map("Tanglewood Street House", Resources.tanglewood, MapSize.Small),
-            new Map("Willow Street House", Resources.willow, MapSize.Small)
+            new Map("10 Ridgeview Court", Resources.ridgeview, MapSize.Small),
+            new Map("6 Tanglewood Drive", Resources.tanglewood, MapSize.Small),
+            new Map("13 Willow Street", Resources.willow, MapSize.Small),
+            new Map("Camp Woodwind", Resources.camp_woodwind, MapSize.Small)
         });
         #endregion Maps
 

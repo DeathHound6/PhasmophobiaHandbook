@@ -239,6 +239,8 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="icon.ico" />
+    <None Include="Resources\sunny_meadows.png" />
+    <None Include="Resources\camp_woodwind.png" />
     <None Include="Resources\tripod.png" />
     <None Include="Resources\hmc.png" />
     <None Include="Resources\motion.png" />

@@ -92,6 +92,11 @@ namespace PhasmophobiaHandbook.Forms
             new MapInfo(Constants.maps[9]).Show();
         }
 
+        private void BtnWoodwind_Click(object sender, EventArgs e)
+        {
+            new MapInfo(Constants.maps[10]).Show();
+        }
+
         private void CBoxFilter_MouseDoubleClick(object sender, MouseEventArgs e)
         {
             foreach (Button button in Controls.OfType<Button>())

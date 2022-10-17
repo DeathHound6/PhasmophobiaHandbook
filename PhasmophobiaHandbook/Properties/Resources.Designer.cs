@@ -63,16 +63,6 @@ namespace PhasmophobiaHandbook.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap asylum {
-            get {
-                object obj = ResourceManager.GetObject("asylum", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap bleasdale {
             get {
                 object obj = ResourceManager.GetObject("bleasdale", resourceCulture);
@@ -106,6 +96,16 @@ namespace PhasmophobiaHandbook.Properties {
         internal static System.Drawing.Bitmap brownstone {
             get {
                 object obj = ResourceManager.GetObject("brownstone", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap camp_woodwind {
+            get {
+                object obj = ResourceManager.GetObject("camp_woodwind", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -640,6 +640,16 @@ namespace PhasmophobiaHandbook.Properties {
         internal static System.Drawing.Bitmap speaker1 {
             get {
                 object obj = ResourceManager.GetObject("speaker1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunny_meadows {
+            get {
+                object obj = ResourceManager.GetObject("sunny_meadows", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -124,9 +124,6 @@
   <data name="brownstone" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brownstone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="asylum" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\asylum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -330,5 +327,11 @@
   </data>
   <data name="tripod" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tripod.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="camp_woodwind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\camp_woodwind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sunny_meadows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sunny_meadows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
