@@ -12,21 +12,56 @@ namespace PhasmophobiaHandbook.Structs.Inherited
         {
             new Ghost(
                 "Spirit",
-                new GhostEvidence[] {GhostEvidence.EMF5, GhostEvidence.SpiritBox, GhostEvidence.GhostWriting},
-                new string[] {"Smudging prevents the ghost from hunting for 180 seconds, instead of the usual 90"},
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostWriting
+                },
+                new string[] {
+                    "Smudging prevents the ghost from hunting for 180 seconds, instead of the usual 90"
+                },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Wraith",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.SpiritBox, GhostEvidence.DOTSProjector },
-                new string[] {"The ghost will not show any UV footsteps after walking in salt", "Can teleport near a random player inside the location and will leave EMF"},
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.DOTSProjector
+                },
+                new string[] {
+                    "The ghost will not show any UV footsteps after walking in salt",
+                    "Can teleport near a random player inside the location and will leave EMF"
+                },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Phantom",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.Fingerprints, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Will prevent a ghost photo being taken by disappearing for a short time",
                     "Sanity drops 2x as fast while the ghost is visible",
@@ -34,21 +69,47 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Blinks a lot slower when hunting"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Poltergeist",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.Fingerprints, GhostEvidence.GhostWriting },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostWriting
+                },
                 new string[] {
                     "Can throw several items at the same time",
                     "Reduces sanity 2x more than a normal interaction when throwing numerous items"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Banshee",
-                new GhostEvidence[] { GhostEvidence.Fingerprints, GhostEvidence.GhostOrbs, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Hunts only the target player unless they are killed or are outside",
                     "Will often roam to the target player",
@@ -56,21 +117,47 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Has a low chance to scream through the parabolic microphone"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Jinn",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.Fingerprints, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Will never turn the breaker off",
                     "When the breaker is on, there is a chance to drop sanity by 25% when within 3 metres of the ghost"
                 },
                 "50%",
-                new object[][] { new object[] { "1.6m/s (if close or breaker off)", Resources.jinn_no_breaker }, new object[] {"2.5m/s (if far and breaker on", Resources.jinn_fast } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (if close or breaker off)",
+                        Resources.jinn_no_breaker
+                    },
+                    new object[] {
+                        "2.5m/s (if far and breaker on",
+                        Resources.jinn_fast
+                    }
+                }
             ),
             new Ghost(
                 "Mare",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.GhostOrbs, GhostEvidence.GhostWriting },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.GhostWriting
+                },
                 new string[] {
                     "Cannot turn lights or the breaker on",
                     "Prefers turning lights or breaker off for interactions",
@@ -79,18 +166,44 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Can turn lights off immediately as they are turned on"
                 },
                 "60% (Ghost Room Lights off), 40% (Ghost Room Lights on)",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                  "Revenant",
-                 new GhostEvidence[] { GhostEvidence.GhostOrbs, GhostEvidence.GhostWriting, GhostEvidence.FreezingTemperatures },
+                 new GhostEvidence[] {
+                     GhostEvidence.GhostOrbs,
+                     GhostEvidence.GhostWriting,
+                     GhostEvidence.FreezingTemperatures
+                 },
                  new string[] {},
                  "50%",
-                 new object[][] { new object[] { "3m/s (with line of sight)", Resources.revenant_fast }, new object[] {"1.1m/s (no line of sight)", Resources.revenant_slow } }
+                 new object[][] {
+                     new object[] {
+                         "3m/s (with line of sight)",
+                         Resources.revenant_fast
+                     },
+                     new object[] {
+                         "1.1m/s (no line of sight)",
+                         Resources.revenant_slow
+                     }
+                 }
             ),
             new Ghost(
                 "Shade",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.GhostWriting, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.GhostWriting,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Very inactive when there are players nearby or in the ghost room",
                     "Ghost event chances are tied to sanity loss, beginning at 50% sanity",
@@ -98,11 +211,24 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Will not try to hunt when a player is in the same room"
                 },
                 "35%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Demon",
-                new GhostEvidence[] { GhostEvidence.Fingerprints, GhostEvidence.GhostWriting, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostWriting,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Crucifix range is 5 metres instead of the normal 3",
                     "Canot teleport to the target player when hunting if it had line of sight within 20 seconds",
@@ -111,21 +237,47 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Smudging the ghost prevents hunting for 60 seconds instead of the usual 90"
                 },
                 "70%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Yurei",
-                new GhostEvidence[] { GhostEvidence.GhostOrbs, GhostEvidence.FreezingTemperatures, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.FreezingTemperatures,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "There is a chance to drop sanity by 13% when within 3 metres. This is indicated by the closing of a nearby door",
                     "Cannot roam while smudged. If smudged during a hunt, the ghost will return to where it was smudged once the hunt ends"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Oni",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.FreezingTemperatures, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.FreezingTemperatures,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Very active",
                     "Can throw items at high speeds",
@@ -133,21 +285,47 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "Prefers physical form for ghost events"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Yokai",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.GhostOrbs, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Increased activity when talking near the ghost",
                     "Can only detect players voice or held active electronics when less than 2 metres away"
                 },
                 "80% (When talking within 2 metres of ghost), 50% otherwise",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Hantu",
-                new GhostEvidence[] { GhostEvidence.Fingerprints, GhostEvidence.GhostOrbs, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "2x more likely to turn off the breaker",
                     "Hunting speed does not increase when there is line of sight",
@@ -155,11 +333,24 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "If playing on Nightmare difficulty, Freezing evidence is guaranteed"
                 },
                 "50%",
-                new object[][] { new object[] { "Up to 2.7m/s (if in cold areas)", Resources.hantu_cold }, new object[] {"As low as 1.4m/s (if in warm areas)", Resources.hantu_warm } }
+                new object[][] {
+                    new object[] {
+                        "Up to 2.7m/s (if in cold areas)",
+                        Resources.hantu_cold
+                    },
+                    new object[] {
+                        "As low as 1.4m/s (if in warm areas)",
+                        Resources.hantu_warm
+                    }
+                }
             ),
             new Ghost(
                 "Goryo",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.Fingerprints, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Will never roam far from the ghost room",
                     "Won't show DOTS when players are in the room",
@@ -167,22 +358,44 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "If playing on Nightmare difficulty, DOTS evidence is guaranteed"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "Myling",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.Fingerprints, GhostEvidence.GhostWriting },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostWriting
+                },
                 new string[] {
                     "Speaks through the parabolic microphone more often",
                     "When hunting, footstep hearing range is shorter than equipment malfunction range",
                     "When hunting, footsteps are much quieter"
                 },
                 "50%",
-                 new object[][] { new object[] { "1.6m/s (quieter)", Resources.myling } }
+                 new object[][] {
+                     new object[] {
+                         "1.6m/s (quieter)",
+                         Resources.myling
+                     }
+                 }
             ),
             new Ghost(
                 "Onryo",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.GhostOrbs, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Will blow out candles more often than other ghosts",
                     "There is a 50% chance to hunt when a candle is blown out below 80% sanity (except for the first 3 blowouts)",
@@ -191,31 +404,66 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "When candles prevent a hunt, it is blown out"
                 },
                 "60%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "The Twins",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.SpiritBox, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Both twins can cause an interaction one after the other",
                     "The decoy twin will only give EMF evidence and won't trigger sensors",
                     "Decoy hunts will start immediately after a decoy interaction"
                 },
                 "50%",
-                new object[][] { new object[] { "1.76m/s (decoy twin)", Resources.twin_decoy }, new object[] {"1.44m/s (main twin)", Resources.twin_main } }
+                new object[][] {
+                    new object[] {
+                        "1.76m/s (decoy twin)",
+                        Resources.twin_decoy
+                    },
+                    new object[] {
+                        "1.44m/s (main twin)",
+                        Resources.twin_main
+                    }
+                }
             ),
             new Ghost(
                 "Raiju",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.GhostOrbs, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Has an increased range of electronics malfunctioning"
                 },
                 "65% (When in presence of active electronics), 50% otherwise",
-                new object[][] { new object[] { "2.5m/s (if near active electronics)", Resources.raiju_fast } }
+                new object[][] {
+                    new object[] {
+                        "2.5m/s (if near active electronics)",
+                        Resources.raiju_fast
+                    }
+                }
             ),
             new Ghost(
                 "Obake",
-                new GhostEvidence[] { GhostEvidence.EMF5, GhostEvidence.Fingerprints, GhostEvidence.GhostOrbs },
+                new GhostEvidence[] {
+                    GhostEvidence.EMF5,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.GhostOrbs
+                },
                 new string[] {
                     "There is a small chance to leave a 6-fingered handprint",
                     "There is a -25% chance to leave fingerprints",
@@ -223,11 +471,25 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "If playing on Nightmare difficulty, Fingerprints evidence is guaranteed"
                 },
                 "50%",
-                new object[][] {new object[] {"1.6m/s (no line of sight)", Resources.normal_speed}, new object[] { "2.5m/s (line of sight)", Resources.normal_speed_los } }
+                new object[][] {
+                    new object[] {
+                        "1.6m/s (no line of sight)",
+                        Resources.normal_speed
+                    },
+                    new object[] {
+                        "2.5m/s (line of sight)",
+                        Resources.normal_speed_los
+                    }
+                }
             ),
             new Ghost(
                 "The Mimic",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.Fingerprints, GhostEvidence.FreezingTemperatures, GhostEvidence.GhostOrbs },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.Fingerprints,
+                    GhostEvidence.FreezingTemperatures,
+                    GhostEvidence.GhostOrbs
+                },
                 new string[] {
                     "Can behave the same as any other ghost type, including hunting and trigger behaviours",
                     "Will change ghost type behaviour no more than once per minute",
@@ -235,11 +497,28 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "When mimicking Thaye, a random ghost age is picked, and will change ghost type when aging occurs"
                 },
                 "Same as ghost type it is currently mimicing",
-                 new object[][] {new object[] {"1.6m/s (normal ghost, no los)", Resources.normal_speed}, new object[] { "3m/s (deogen far)", Resources.deogen_fast }, new object[] {"1.76m/s (decoy twin)", Resources.twin_decoy} }
+                 new object[][] {
+                     new object[] {
+                         "1.6m/s (normal ghost, no los)",
+                         Resources.normal_speed
+                     },
+                     new object[] {
+                         "3m/s (deogen far)",
+                         Resources.deogen_fast
+                     },
+                     new object[] {
+                         "1.76m/s (decoy twin)",
+                         Resources.twin_decoy
+                     }
+                 }
             ),
             new Ghost(
                 "Moroi",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.GhostWriting, GhostEvidence.FreezingTemperatures },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostWriting,
+                    GhostEvidence.FreezingTemperatures
+                },
                 new string[] {
                     "Curses the spirit box player, dropping sanity 2x faster when indoors until pills are taken",
                     "Also curses parabloic microphone users upon hearing footsteps or whispers",
@@ -247,22 +526,52 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "If playing on Nightmare difficulty, Spirit Box evidence is guaranteed"
                 },
                 "50%",
-                new object[][] { new object[] { "2.25m/s (0% sanity)", Resources.moroi_0 }, new object[] {"1.75m/s (35% sanity)", Resources.moroi_35 }, new object[] {"1.5m/s (50% sanity)", Resources.moroi_50 } }
+                new object[][] {
+                    new object[] {
+                        "2.25m/s (0% sanity)",
+                        Resources.moroi_0
+                    },
+                    new object[] {
+                        "1.75m/s (35% sanity)",
+                        Resources.moroi_35
+                    },
+                    new object[] {
+                        "1.5m/s (50% sanity)",
+                        Resources.moroi_50
+                    }
+                }
             ),
             new Ghost(
                 "Deogen",
-                new GhostEvidence[] { GhostEvidence.SpiritBox, GhostEvidence.GhostWriting, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.SpiritBox,
+                    GhostEvidence.GhostWriting,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "Can detect players locations during a hunt. Players cannot hide",
                     "Has an increased chance for DOTS and Ghost Writing evidences",
                     "If within 1 metre when using spirit box, there is a 33% chance for a unique breathing response"
                 },
                 "40%",
-                new object[][] { new object[] { "Up to 3m/s (if farther than 6m)", Resources.deogen_fast }, new object[] {"0.4m/s if closer than 2.5m", Resources.deogen_slow } }
+                new object[][] {
+                    new object[] {
+                        "Up to 3m/s (if farther than 6m)",
+                        Resources.deogen_fast
+                    },
+                    new object[] {
+                        "0.4m/s if closer than 2.5m",
+                        Resources.deogen_slow
+                    }
+                }
             ),
             new Ghost(
                 "Thaye",
-                new GhostEvidence[] { GhostEvidence.GhostOrbs, GhostEvidence.GhostWriting, GhostEvidence.DOTSProjector },
+                new GhostEvidence[] {
+                    GhostEvidence.GhostOrbs,
+                    GhostEvidence.GhostWriting,
+                    GhostEvidence.DOTSProjector
+                },
                 new string[] {
                     "2x more likely to cause interactions and ghost events",
                     "Has an increased chance for DOTS and Ghost Writing evidences",
@@ -271,7 +580,16 @@ namespace PhasmophobiaHandbook.Structs.Inherited
                     "When old, it won't try to hunt any player in the same room"
                 },
                 "75% (At start of game), -6% (every time ghost ages 1 year), 15% (When ghost is finished aging 10 years since start of game)",
-                new object[][] { new object[] { "2.75m/s (young)", Resources.thaye_young }, new object[] {"1m/s (old)", Resources.thaye_old } }
+                new object[][] {
+                    new object[] {
+                        "2.75m/s (young)",
+                        Resources.thaye_young
+                    },
+                    new object[] {
+                        "1m/s (old)",
+                        Resources.thaye_old
+                    }
+                }
             )
         });
         #endregion Ghosts
