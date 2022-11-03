@@ -10,7 +10,15 @@ namespace PhasmophobiaHandbook.Forms
 {
     public partial class GhostInfo : Form
     {
-        private string[] evidences = new string[] {"EMF 5", "DOTS Projector", "Fingerprints", "Ghost Orbs", "Ghost Writing", "Spirit Box", "Freezing Temperatures"};
+        private string[] evidences = new string[] {
+            "EMF 5",
+            "DOTS Projector",
+            "Fingerprints",
+            "Ghost Orbs",
+            "Ghost Writing",
+            "Spirit Box",
+            "Freezing Temperatures"
+        };
         private Ghost g;
         private SoundPlayer player;
         private PictureBox lastClicked;
@@ -64,12 +72,12 @@ namespace PhasmophobiaHandbook.Forms
         {
             if (lastClicked == ImgAudioOne)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 return;
             }
             lastClicked = ImgAudioOne;
             if (player != null)
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
             try
             {
                 ImgAudioOne.Image = Resources.speaker_mute;
@@ -78,7 +86,7 @@ namespace PhasmophobiaHandbook.Forms
             }
             catch (IndexOutOfRangeException)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -87,12 +95,12 @@ namespace PhasmophobiaHandbook.Forms
         {
             if (lastClicked == ImgAudioTwo)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 return;
             }
             lastClicked = ImgAudioTwo;
             if (player != null)
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
             try
             {
                 ImgAudioTwo.Image = Resources.speaker_mute;
@@ -101,7 +109,7 @@ namespace PhasmophobiaHandbook.Forms
             }
             catch (IndexOutOfRangeException)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -110,12 +118,12 @@ namespace PhasmophobiaHandbook.Forms
         {
             if (lastClicked == ImgAudioThree)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 return;
             }
             lastClicked = ImgAudioThree;
             if (player != null)
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
             try
             {
                 ImgAudioThree.Image = Resources.speaker_mute;
@@ -124,7 +132,7 @@ namespace PhasmophobiaHandbook.Forms
             }
             catch (IndexOutOfRangeException)
             {
-                PlayerCompleted(sender, e);
+                PlayerCompleted();
                 MessageBox.Show("Failed to find the audio track to play", "Missing Audio Track", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -138,11 +146,11 @@ namespace PhasmophobiaHandbook.Forms
             }
             catch (InvalidOperationException)
             {
-                PlayerCompleted(null, null);
+                PlayerCompleted();
             }
         }
 
-        private void PlayerCompleted(object sender, EventArgs e)
+        private void PlayerCompleted()
         {
             ImgAudioOne.Image = Resources.speaker1;
             ImgAudioTwo.Image = Resources.speaker1;
